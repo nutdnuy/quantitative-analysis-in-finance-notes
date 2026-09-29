@@ -7,7 +7,7 @@
 ## เปิดอ่าน
 
 - สร้างเว็บไซต์ในเครื่อง: `python3 scripts/build_site.py`
-- เริ่มเว็บในเครื่องด้วย `python3 -m http.server 8763 --directory site`
+- เปิด `site/index.html` หรือเริ่มเว็บในเครื่องด้วย `python3 -m http.server 8763 --directory site`
 - ไฟล์ต้นฉบับอยู่ที่ `assets/QAF-completed-handbook.pdf`
 - ชื่อบทและเลขหน้าสำหรับตัวอ่านแยกบทอยู่ใน `book.json`
 

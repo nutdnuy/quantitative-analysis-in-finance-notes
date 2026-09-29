@@ -1,0 +1,32 @@
+{
+  "title_th": "การวิเคราะห์เชิงปริมาณทางการเงิน",
+  "title_en": "Quantitative analysis in finance",
+  "author": "ดร.วิชัย วิทยาเกียรติเลิศ",
+  "edition": "พิมพ์ครั้งที่ 2",
+  "year": "พ.ศ. 2560",
+  "isbn": "978-616-440-314-7",
+  "source_pdf": "assets/QAF-completed-handbook.pdf",
+  "cover_image": "assets/images/book-cover.png",
+  "front_matter": {
+    "title": "คำนำและสารบัญ",
+    "first_page": 2,
+    "last_page": 9
+  },
+  "chapters": [
+    {"number": 1, "title": "มูลค่าของเงินตามเวลา", "first_page": 10, "last_page": 55, "printed_first": 1, "printed_last": 46},
+    {"number": 2, "title": "การจ่ายแบบต่อเนื่องและค่ารายงวด", "first_page": 56, "last_page": 91, "printed_first": 47, "printed_last": 82},
+    {"number": 3, "title": "อัตราดอกเบี้ยโดยประมาณ", "first_page": 92, "last_page": 107, "printed_first": 83, "printed_last": 98},
+    {"number": 4, "title": "ค่าเสื่อมราคาและค่าใช้จ่ายประเภททุน", "first_page": 108, "last_page": 141, "printed_first": 99, "printed_last": 132},
+    {"number": 5, "title": "ผลตอบแทนในตลาดการเงิน", "first_page": 142, "last_page": 193, "printed_first": 133, "printed_last": 184},
+    {"number": 6, "title": "การวิเคราะห์งบเงินทุน กองทุนและการลงทุนต่อ", "first_page": 194, "last_page": 219, "printed_first": 185, "printed_last": 210},
+    {"number": 7, "title": "ดูเรชันและภูมิคุ้มกันทางการเงิน", "first_page": 220, "last_page": 259, "printed_first": 211, "printed_last": 250},
+    {"number": 8, "title": "แบบจำลองราคาอย่างง่าย", "first_page": 260, "last_page": 291, "printed_first": 251, "printed_last": 282},
+    {"number": 9, "title": "แบบจำลองราคาไม่ต่อเนื่อง", "first_page": 292, "last_page": 337, "printed_first": 283, "printed_last": 328},
+    {"number": 10, "title": "ตราสารออปชั่น", "first_page": 338, "last_page": 391, "printed_first": 329, "printed_last": 382}
+  ],
+  "back_matter": {
+    "title": "ภาคผนวก เอกสารอ้างอิง และดัชนี",
+    "first_page": 392,
+    "last_page": 407
+  }
+}
