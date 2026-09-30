@@ -1,3 +1,8 @@
 site/
 __pycache__/
 *.pyc
+transcripts/.reviewed-pages.lock
+transcripts/excerpts/
+transcripts/ocr-drafts/
+transcripts/source-drafts/
+scripts/ocr_formula_drafts.py

@@ -1,0 +1,29 @@
+<h3>1.1.2 การหาจำนวนเงินที่เพิ่มขึ้นจากการลงทุนหลายครั้งต่อเนื่องกัน</h3>
+
+<p>กำหนดให้ลงทุนด้วยเงินต้นด้วยเงิน <math data-tex="P_0"><msub><mi>P</mi><mn>0</mn></msub></math> บาท และเงินเพิ่มขึ้น (กำไร) ด้วยอัตราเพิ่ม <math data-tex="x_1"><msub><mi>x</mi><mn>1</mn></msub></math> เมื่อสิ้นการลงทุนครั้งที่ 1 และนำเงินรวมเมื่อสิ้นการลงทุนครั้งที่ 1 ไปลงทุนต่อ ด้วยอัตราเพิ่ม <math data-tex="x_2"><msub><mi>x</mi><mn>2</mn></msub></math> เมื่อสิ้นการลงทุนครั้งที่ 2 ทำเช่นนี้ไปเรื่อยๆ จนครบระยะเวลาการลงทุน ถ้าสมมติว่าลงทุนด้วยวิธีนี้เป็นจำนวน <math data-tex="n"><mi>n</mi></math> ครั้ง โดยที่อัตรากำไรหรืออัตราเพิ่มเป็น <math data-tex="x_1"><msub><mi>x</mi><mn>1</mn></msub></math>, <math data-tex="x_2"><msub><mi>x</mi><mn>2</mn></msub></math>, . . . , <math data-tex="x_n"><msub><mi>x</mi><mi>n</mi></msub></math> ตามลำดับ จะได้</p>
+
+<div class="source-equation" data-tex="\text{จำนวนเงินสะสมเมื่อสิ้นการลงทุนครั้งที่ }n=(1+x_1)(1+x_2)...(1+x_n)P_0"><math display="block"><mtext>จำนวนเงินสะสมเมื่อสิ้นการลงทุนครั้งที่&nbsp;</mtext><mi>n</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo><mo>...</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mi>n</mi></msub><mo>)</mo><msub><mi>P</mi><mn>0</mn></msub></math><span class="equation-number">(1.3)</span></div>
+
+<div class="source-equation" data-tex="\text{อัตราเพิ่มขึ้นสะสมเมื่อสิ้นการลงทุนครั้งที่ }n=(1+x_1)(1+x_2)...(1+x_n)-1"><math display="block"><mtext>และ&nbsp; อัตราเพิ่มขึ้นสะสมเมื่อสิ้นการลงทุนครั้งที่&nbsp;</mtext><mi>n</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo><mo>...</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mi>n</mi></msub><mo>)</mo><mo>−</mo><mn>1</mn></math><span class="equation-number">(1.4)</span></div>
+
+<p><strong>ตัวอย่าง 1.3</strong> สมชายนำเงิน 1,000,000 บาท ลงทุนในธุรกิจรับเหมาก่อสร้าง โดย 2 ปีแรกยังไม่ได้รับกำไร ถ้าผลประกอบการของธุรกิจได้กำไร 15%, 18%, 25% และ 32% ในปีที่ 3, 4, 5 และ 6 ตามลำดับ แล้วเมื่อครบ 6 ปี นายสมชายมีเงินในธุรกิจนั้นเท่าไร และรวมแล้วได้กำไรทั้งหมดกี่เปอร์เซ็นต์</p>
+
+<p><strong>วิธีทำ</strong> ในที่นี้ <math data-tex="P_0=1{,}000{,}000"><msub><mi>P</mi><mn>0</mn></msub><mo>=</mo><mn>1,000,000</mn></math> บาท <math data-tex="x_1=15\%=0.15"><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mn>15%</mn><mo>=</mo><mn>0.15</mn></math> , <math data-tex="x_2=0.18"><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mn>0.18</mn></math> , <math data-tex="x_3=0.25"><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>0.25</mn></math> และ <math data-tex="x_4=0.32"><msub><mi>x</mi><mn>4</mn></msub><mo>=</mo><mn>0.32</mn></math> (2 ปีแรกไม่คิดเพราะยังไม่ได้รับกำไร) ดังนั้น เมื่อครบ 6 ปี นายสมชายมีเงินในธุรกิจนี้เท่ากับ <math data-tex="(1+0.15)(1+0.18)(1+0.25)(1+0.32)(1{,}000{,}000)=2{,}239{,}050"><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.15</mn><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.18</mn><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.25</mn><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.32</mn><mo>)</mo><mo>(</mo><mn>1,000,000</mn><mo>)</mo><mo>=</mo><mn>2,239,050</mn></math> บาท</p>
+
+<p>และ ได้อัตรากำไรสะสม <math data-tex="=\frac{\text{เงินที่เพิ่มขึ้น}}{\text{เงินทุนเริ่มต้น}}=\frac{2{,}239{,}050-1{,}000{,}000}{1{,}000{,}000}=1.23905=123.905\%"><mo>=</mo><mfrac><mtext>เงินที่เพิ่มขึ้น</mtext><mtext>เงินทุนเริ่มต้น</mtext></mfrac><mo>=</mo><mfrac><mrow><mn>2,239,050</mn><mo>−</mo><mn>1,000,000</mn></mrow><mn>1,000,000</mn></mfrac><mo>=</mo><mn>1.23905</mn><mo>=</mo><mn>123.905%</mn></math> □</p>
+
+<p>จากตัวอย่าง 1.3 จะเห็นว่า อัตรากำไรสะสมไม่ได้เกิดจากผลบวกของอัตรากำไรของการลงทุนในแต่ละครั้ง เนื่องจากเงินต้นที่นำไปลงทุนแต่ละครั้งไม่เท่ากัน</p>
+
+<h3>1.1.3 การหาจำนวนเงินที่ลดลงจากการลงทุน 1 ครั้ง</h3>
+
+<p>กำหนดให้ลงทุนด้วยเงินต้น <math data-tex="P_0"><msub><mi>P</mi><mn>0</mn></msub></math> บาท และเงินลดลง(ขาดทุน) ด้วยอัตรา</p>
+
+<div class="source-equation" data-tex="y=\frac{\text{จำนวนเงินที่ลดลง}}{\text{เงินลงทุนเริ่มต้น}}"><math display="block"><mi>y</mi><mo>=</mo><mfrac><mtext>จำนวนเงินที่ลดลง</mtext><mtext>เงินลงทุนเริ่มต้น</mtext></mfrac></math></div>
+
+<p>จะได้</p>
+
+<div class="source-equation" data-tex="\text{จำนวนเงินที่ลดลง}=yP_0"><math display="block"><mtext>จำนวนเงินที่ลดลง</mtext><mo>=</mo><mi>y</mi><msub><mi>P</mi><mn>0</mn></msub></math><span class="equation-number">(1.5)</span></div>
+
+<p>และ</p>
+
+<div class="source-equation" data-tex="\text{จำนวนเงินคงเหลือ}=P_0-yP_0=(1-y)P_0"><math display="block"><mtext>จำนวนเงินคงเหลือ</mtext><mo>=</mo><msub><mi>P</mi><mn>0</mn></msub><mo>−</mo><mi>y</mi><msub><mi>P</mi><mn>0</mn></msub><mo>=</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>y</mi><mo>)</mo><msub><mi>P</mi><mn>0</mn></msub></math><span class="equation-number">(1.6)</span></div>

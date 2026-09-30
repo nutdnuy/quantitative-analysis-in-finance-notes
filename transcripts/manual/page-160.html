@@ -1,0 +1,133 @@
+<p><strong>ตัวอย่างที่ 5.13</strong> จากตัวอย่างที่ 5.12 จงคำนวณหา อัตราผลตอบแทนถ่วงน้ำหนักด้วยเวลา <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>r</mi><mrow><mi>T</mi><mi>W</mi><mi>R</mi></mrow></msub><annotation encoding="application/x-tex">r_{TWR}</annotation></semantics></math></p>
+<p><strong>วิธีทำ</strong> จากตารางแสดงกระแสเงินสด</p>
+<table class="source-table">
+<thead>
+<tr>
+<th>
+เดือนที่
+</th>
+<th>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">t_0=0</annotation></semantics></math>
+</th>
+<th>
+1
+</th>
+<th>
+2
+</th>
+<th>
+3
+</th>
+<th>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">t_1=4</annotation></semantics></math>
+</th>
+<th>
+5
+</th>
+<th>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mn>6</mn></mrow><annotation encoding="application/x-tex">t_2=6</annotation></semantics></math>
+</th>
+<th>
+7
+</th>
+<th>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mn>3</mn></msub><mo>=</mo><mn>8</mn></mrow><annotation encoding="application/x-tex">t_3=8</annotation></semantics></math>
+</th>
+<th>
+9
+</th>
+<th>
+10
+</th>
+<th>
+11
+</th>
+<th>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mn>4</mn></msub><mo>=</mo><mn>12</mn></mrow><annotation encoding="application/x-tex">t_4=12</annotation></semantics></math>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>
+เงิน<br>ลงทุน
+</th>
+<td>
+100,000
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+60,000
+</td>
+<td>
+</td>
+<td>
+-10,000
+</td>
+<td>
+</td>
+<td>
+-30,000
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+FV=130,000
+</td>
+</tr>
+<tr>
+<th>
+เงิน<br>คงเหลือ<br><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>B</mi><mi>j</mi></msub><annotation encoding="application/x-tex">B_j</annotation></semantics></math>
+</th>
+<td>
+100,000
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+160,000
+</td>
+<td>
+</td>
+<td>
+150,000
+</td>
+<td>
+</td>
+<td>
+120,000
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+130,000
+</td>
+</tr>
+</tbody>
+</table>
+<p>คำนวณหาอัตราดอกเบี้ย <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>i</mi><mi>j</mi></msub><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><msub><mi>B</mi><mi>j</mi></msub><mo>−</mo><msub><mi>B</mi><mrow><mi>j</mi><mo>−</mo><mn>1</mn></mrow></msub></mrow><msub><mi>B</mi><mrow><mi>j</mi><mo>−</mo><mn>1</mn></mrow></msub></mfrac></mstyle></mrow><annotation encoding="application/x-tex">i_j=\dfrac{B_j-B_{j-1}}{B_{j-1}}</annotation></semantics></math> , <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>.</mi><mi>.</mi><mi>.</mi><mo>,</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">j=1,...,4</annotation></semantics></math> ได้</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>i</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>B</mi><mn>1</mn></msub><mo>−</mo><msub><mi>B</mi><mn>0</mn></msub></mrow><msub><mi>B</mi><mn>0</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mn>160</mn><mo>,</mo><mn>000</mn><mo>−</mo><mn>100</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>100</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>0.6</mn><mspace width="0.222em"></mspace><mo>,</mo></mrow><annotation encoding="application/x-tex">i_1=\frac{B_1-B_0}{B_0}=\frac{160,000-100,000}{100,000}=0.6\ ,</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>i</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>B</mi><mn>2</mn></msub><mo>−</mo><msub><mi>B</mi><mn>1</mn></msub></mrow><msub><mi>B</mi><mn>1</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mn>150</mn><mo>,</mo><mn>000</mn><mo>−</mo><mn>160</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>160</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mi>−</mi><mn>0.0625</mn></mrow><annotation encoding="application/x-tex">i_2=\frac{B_2-B_1}{B_1}=\frac{150,000-160,000}{160,000}=-0.0625</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>i</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>B</mi><mn>3</mn></msub><mo>−</mo><msub><mi>B</mi><mn>2</mn></msub></mrow><msub><mi>B</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mn>120</mn><mo>,</mo><mn>000</mn><mo>−</mo><mn>150</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>150</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mi>−</mi><mn>0.2</mn><mspace width="0.222em"></mspace><mo>,</mo></mrow><annotation encoding="application/x-tex">i_3=\frac{B_3-B_2}{B_2}=\frac{120,000-150,000}{150,000}=-0.2\ ,</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>i</mi><mn>4</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>B</mi><mn>4</mn></msub><mo>−</mo><msub><mi>B</mi><mn>3</mn></msub></mrow><msub><mi>B</mi><mn>3</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mn>130</mn><mo>,</mo><mn>000</mn><mo>−</mo><mn>120</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>120</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>0.0833</mn></mrow><annotation encoding="application/x-tex">i_4=\frac{B_4-B_3}{B_3}=\frac{130,000-120,000}{120,000}=0.0833</annotation></semantics></math></p>
+<p>ดังนั้น <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>r</mi><mrow><mi>T</mi><mi>W</mi><mi>R</mi></mrow></msub><mo>=</mo><mroot><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mn>3</mn></msub><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mn>4</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow><mn>1</mn></mroot><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">r_{TWR}=\sqrt[1]{(1+i_1)(1+i_2)(1+i_3)(1+i_4)}-1</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.6</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mn>0.0625</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><mn>0.2</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.0833</mn><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mn>1</mn><mo>=</mo><mn>0.29996</mn><mo>=</mo><mn>29.996</mn><mspace width="0.222em"></mspace><mi>%</mi><mspace width="1.0em"></mspace><mi>▫</mi></mrow><annotation encoding="application/x-tex">=(1+0.6)(1-0.0625)(1-0.2)(1+0.0833)-1=0.29996=29.996\ \%\quad\square</annotation></semantics></math></p>
+<h2 id="ผลตอบแทนและการประเมนราคาตราสารทน">5.3 ผลตอบแทนและการประเมินราคาตราสารทุน</h2>
+<p>ในหัวข้อ 5.2) ได้กล่าวถึงความหมายและลักษณะของตราสารทุน นอกจากนี้ยังทราบว่าตราสารทุนแบ่งออกเป็น หุ้นสามัญ และหุ้นบุริมสิทธิ์โดยที่จะมีความแตกต่างกันที่หุ้นบุริมสิทธิ์จะมีลักษณะเป็นหุ้นสามัญกึ่งผสมหนี้สินนั่นคือมีลักษณะเป็นกึ่งเจ้าของกึ่งเจ้าหนี้ ในขณะที่หุ้นสามัญจะอยู่ในสถานะผู้เป็นเจ้าของเท่านั้น ในหัวข้อนี้เราจะกล่าวถึงผลตอบแทนจากตราสารทุน นอกจากนี้ยังได้กล่าวถึงการประเมินราคาตราสารทุนโดยประยุกต์ใช้มูลค่าของเงินตามเวลาอีกด้วย</p>

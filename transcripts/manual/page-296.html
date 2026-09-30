@@ -1,0 +1,66 @@
+<p>จากรูป (9.1) สามารถเขียนอีกรูปหนึ่งได้เป็น</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>m</mi><mo stretchy="false" form="postfix">)</mo><mspace width="2.0em"></mspace><mo stretchy="false" form="prefix">(</mo><mn>9.2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">S(n)=(1+K(m,n))S(m)\qquad(9.2)</annotation></semantics></math></p>
+<p>และ อัตราผลตอบแทนบน 1 ช่วงเวลา <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">[</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>,</mo><mi>n</mi><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">[n-1,n]</annotation></semantics></math> คือ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>,</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(n-1,n)</annotation></semantics></math> จะเขียนแทนด้วย <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(n)</annotation></semantics></math></p>
+<p>ดังนั้น</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mspace width="2.0em"></mspace><mo stretchy="false" form="prefix">(</mo><mn>9.3</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(n)=\frac{S(n)-S(n-1)}{S(n-1)}\qquad(9.3)</annotation></semantics></math></p>
+<p>ซึ่งเขียนอีกรูปหนึ่งได้เป็น</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mspace width="2.0em"></mspace><mo stretchy="false" form="prefix">(</mo><mn>9.4</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">S(n)=(1+K(n))S(n-1)\qquad(9.4)</annotation></semantics></math></p>
+<p><strong>หมายเหตุ</strong> หากนำเงินปันผลเข้ามาพิจารณาด้วย จะได้อัตราผลตอบแทนเป็น</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mfrac><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mrow><mi mathvariant="normal">div</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mspace width="2.0em"></mspace><mo stretchy="false" form="prefix">(</mo><mn>9.5</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(n)=\frac{S(n)-S(n-1)+\operatorname{div}(n)}{S(n-1)}\qquad(9.5)</annotation></semantics></math></p>
+<p>เมื่อ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="normal">div</mi><mo>&#8289;</mo></mrow><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\operatorname{div}(n)</annotation></semantics></math> เป็นเงินปันผลต่อหุ้นที่จ่ายในคาบที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math></p>
+<p><strong>ตัวอย่างที่ 9.3</strong> พิจารณาตลาดซึ่งมี 2 สภาวะ คือ ตลาดคึกคัก และ ตลาดซบเซา แทนด้วย <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\omega_1</annotation></semantics></math> และ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\omega_2</annotation></semantics></math> ตามลำดับ ในตัวอย่างที่ 9.1 สามารถเขียนตารางแสดงอัตราผลตอบแทน <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(1)</annotation></semantics></math> ได้ดังนี้</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">สภาวะ</th>
+<th style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(1)</annotation></semantics></math></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\omega_1</annotation></semantics></math></td>
+<td style="text-align: center;">0.2</td>
+</tr>
+<tr>
+<td style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\omega_2</annotation></semantics></math></td>
+<td style="text-align: center;">-0.3</td>
+</tr>
+</tbody>
+</table>
+<p>□</p>
+<p><strong>ตัวอย่างที่ 9.4</strong> สมมติตลาดแห่งหนึ่งมี 3 สภาวะ คือ ตลาดคึกคัก ตลาดซบเซา และตลาดผันผวน แทนด้วย <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\omega_1</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\omega_2</annotation></semantics></math> และ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>3</mn></msub><annotation encoding="application/x-tex">\omega_3</annotation></semantics></math> ตามลำดับ จากตัวอย่างที่ 9.2 จะได้ว่า อัตราผลตอบแทนตามแต่ละสภาวะแสดงในตารางดังต่อไปนี้</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">สภาวะ</th>
+<th style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(1)</annotation></semantics></math></th>
+<th style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(2)</annotation></semantics></math></th>
+<th style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(0,2)</annotation></semantics></math></th>
+<th style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>K</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">K(0,1)+K(1,2)</annotation></semantics></math></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\omega_1</annotation></semantics></math></td>
+<td style="text-align: center;">0.1</td>
+<td style="text-align: center;">0.0545</td>
+<td style="text-align: center;">0.16</td>
+<td style="text-align: center;">0.1545</td>
+</tr>
+<tr>
+<td style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\omega_2</annotation></semantics></math></td>
+<td style="text-align: center;">-0.1</td>
+<td style="text-align: center;">-0.1111</td>
+<td style="text-align: center;">-0.2</td>
+<td style="text-align: center;">-0.2111</td>
+</tr>
+<tr>
+<td style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>3</mn></msub><annotation encoding="application/x-tex">\omega_3</annotation></semantics></math></td>
+<td style="text-align: center;">0.1</td>
+<td style="text-align: center;">-0.0127</td>
+<td style="text-align: center;">-0.04</td>
+<td style="text-align: center;">-0.0973</td>
+</tr>
+</tbody>
+</table>
+<p>□</p>

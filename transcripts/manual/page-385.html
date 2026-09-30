@@ -1,0 +1,90 @@
+<p><strong>ตัวอย่างที่ 10.19</strong> กำหนดยูโรเปียนพุทออปชั่นของหุ้นบริษัทหนึ่ง มีราคาใช้สิทธิ 100 บาท อายุของสัญญา 6 เดือน สมมติว่าราคาปัจจุบันของหุ้นอ้างอิงเท่ากับ 90 บาท และอัตราผลตอบแทนของการลงทุนในตราสารหนี้ 0.2 ต่อปีทบต้นต่อเนื่องและอัตราผลตอบแทนลอการิทึมคาดหวัง <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>μ</mi><mo>=</mo><mn>0.2</mn></mrow><annotation encoding="application/x-tex">\mu=0.2</annotation></semantics></math> สมมติว่าราคาหุ้นอ้างอิงมีค่าความผันผวน 12.15 % ต่อปี จงใช้สูตรของแบล็ก-โชลส์คำนวณหา <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>P</mi><mi>E</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P^E(t)</annotation></semantics></math> สำหรับ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>0.5</mn><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">t\in[0,0.5]</annotation></semantics></math> เมื่อแบ่งช่วงเวลาออกเป็น 10 ช่องเท่าๆกัน โดยสมมติว่าราคาของหุ้นอ้างอิงที่เวลาต่างๆจากการจำลองได้ผลลัพธ์ดังนี้</p>
+<table class="source-table stock-simulation-table">
+<tbody>
+<tr>
+<th>
+<i>t</i><sub>i</sub>
+</th>
+<td>
+0
+</td>
+<td>
+0.05
+</td>
+<td>
+0.1
+</td>
+<td>
+0.15
+</td>
+<td>
+0.2
+</td>
+<td>
+0.25
+</td>
+<td>
+0.3
+</td>
+<td>
+0.35
+</td>
+<td>
+0.4
+</td>
+<td>
+0.45
+</td>
+<td>
+0.5
+</td>
+</tr>
+<tr>
+<th>
+<i>S</i><sub>i</sub>
+</th>
+<td>
+90
+</td>
+<td>
+93.05
+</td>
+<td>
+93.04
+</td>
+<td>
+96.38
+</td>
+<td>
+97.11
+</td>
+<td>
+98.08
+</td>
+<td>
+100.35
+</td>
+<td>
+99.61
+</td>
+<td>
+104.58
+</td>
+<td>
+106.38
+</td>
+<td>
+107.21
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>วิธีทำ</strong> จากโจทย์กำหนดให้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>90</mn></mrow><annotation encoding="application/x-tex">S(0)=90</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>K</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">K=100</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo>=</mo><mn>6</mn><mi>/</mi><mn>12</mn><mo>=</mo><mn>0.5</mn></mrow><annotation encoding="application/x-tex">T=6/12=0.5</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>δ</mi><mo>=</mo><mn>0.2</mn></mrow><annotation encoding="application/x-tex">\delta=0.2</annotation></semantics></math> และ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>σ</mi><mn>2</mn></msup><mo>=</mo><msup><mn>0.1215</mn><mn>2</mn></msup><mo>=</mo><mn>0.01476225</mn></mrow><annotation encoding="application/x-tex">\sigma^2=0.1215^2=0.01476225</annotation></semantics></math></p>
+<p>จากสูตรของแบล็ก-โชลส์ (10.64) และ (10.65) จะได้</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>d</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>&#8289;</mo></mrow><mstyle displaystyle="true"><mfrac><mn>90</mn><mn>100</mn></mfrac></mstyle><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mn>0.2</mn><mo>+</mo><mn>0.5</mn><mo stretchy="false" form="prefix">(</mo><mn>0.01476225</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>0.5</mn><mo>−</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mn>0.1215</mn><msqrt><mrow><mn>0.5</mn><mo>−</mo><mi>t</mi></mrow></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>−</mi><mn>0.0137</mn><mo>−</mo><mn>1.7068</mn><mi>t</mi></mrow><msqrt><mrow><mn>0.5</mn><mo>−</mo><mi>t</mi></mrow></msqrt></mfrac></mrow><annotation encoding="application/x-tex">d_1=\frac{\ln\dfrac{90}{100}+(0.2+0.5(0.01476225))(0.5-t)}{0.1215\sqrt{0.5-t}}=\frac{-0.0137-1.7068t}{\sqrt{0.5-t}}</annotation></semantics></math></p>
+<p>และ</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>d</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mrow><mi mathvariant="normal">ln</mi><mo>&#8289;</mo></mrow><mstyle displaystyle="true"><mfrac><mn>90</mn><mn>100</mn></mfrac></mstyle><mo>+</mo><mo stretchy="false" form="prefix">(</mo><mn>0.2</mn><mo>−</mo><mn>0.5</mn><mo stretchy="false" form="prefix">(</mo><mn>0.01476225</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="prefix">(</mo><mn>0.5</mn><mo>−</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo></mrow><mrow><mn>0.1215</mn><msqrt><mrow><mn>0.5</mn><mo>−</mo><mi>t</mi></mrow></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>−</mi><mn>0.0745</mn><mo>−</mo><mn>1.5853</mn><mi>t</mi></mrow><msqrt><mrow><mn>0.5</mn><mo>−</mo><mi>t</mi></mrow></msqrt></mfrac></mrow><annotation encoding="application/x-tex">d_2=\frac{\ln\dfrac{90}{100}+(0.2-0.5(0.01476225))(0.5-t)}{0.1215\sqrt{0.5-t}}=\frac{-0.0745-1.5853t}{\sqrt{0.5-t}}</annotation></semantics></math></p>
+<p>และ</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>P</mi><mi>E</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>100</mn><msup><mi>e</mi><mrow><mi>−</mi><mn>0.2</mn><mo stretchy="false" form="prefix">(</mo><mn>0.5</mn><mo>−</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><msub><mi>d</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mi>S</mi><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><msub><mi>d</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P^E(t)=100e^{-0.2(0.5-t)}N(-d_2)-S(t)N(-d_1)</annotation></semantics></math></p>
+<p>เมื่อ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>z</mi><mo>≤</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">N(x)=P(z\leq x)</annotation></semantics></math></p>
+<p>เราจะเขียนกราฟของ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>P</mi><mi>E</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>t</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P^E(t)</annotation></semantics></math>โดยการแบ่งช่วงเวลา <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>0.5</mn><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">[0,0.5]</annotation></semantics></math> ออกเป็น 10 ช่องย่อยๆ จะได้ความกว้างของแต่ละช่องย่อยเท่ากับ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle displaystyle="true"><mfrac><mrow><mn>0.5</mn><mo>−</mo><mn>0</mn></mrow><mn>10</mn></mfrac></mstyle><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">\dfrac{0.5-0}{10}=0.05</annotation></semantics></math> โดยมีจุดเวลาเป็น <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>t</mi><mi>i</mi></msub><annotation encoding="application/x-tex">t_i</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>d</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>t</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">d_1(t_i)</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>d</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>t</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">d_2(t_i)</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><msub><mi>d</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>t</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">N(-d_1(t_i))</annotation></semantics></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>−</mi><msub><mi>d</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>t</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">N(-d_2(t_i))</annotation></semantics></math> และ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>P</mi><mi>E</mi></msup><mo stretchy="false" form="prefix">(</mo><msub><mi>t</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P^E(t_i)</annotation></semantics></math> แสดงในตารางต่อไปนี้</p>

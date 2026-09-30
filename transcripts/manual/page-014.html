@@ -1,0 +1,27 @@
+<p class="continued">จากตัวอย่าง 1.5 จะเห็นว่า อัตราลดสะสมไม่ได้เกิดจากผลบวกของอัตราลดของการลงทุนในแต่ละครั้ง เนื่องจากมีการนำเงินคงเหลือในแต่ละครั้งไปลงทุนต่อ ทำให้เงินต้นในการลงทุนแต่ละครั้งไม่เท่ากันจึงเป็นเหตุให้ไม่สามารถนำอัตราดังกล่าวมารวมกันได้</p>
+
+<h3>1.1.5 การหาจำนวนเงินที่มีทั้งอัตราการเพิ่มและอัตราการลดลง</h3>
+
+<p>ในความเป็นจริงในการลงทุนย่อมมีทั้งกำไร(ทำให้เงินลงทุนเพิ่มขึ้น) และขาดทุน (ทำให้เงินลงทุนลดลง) ซึ่งสามารถคำนวณจำนวนเงินสะสมที่ได้จากการลงทุนดังกล่าวได้จากสูตร ต่อไปนี้</p>
+
+<p>สมมติให้ เงินลงทุนด้วยทุนเริ่มต้น <math data-tex="P_0"><msub><mi>P</mi><mn>0</mn></msub></math> บาท และลงทุนต่อเนื่อง <math data-tex="m+n"><mi>m</mi><mo>+</mo><mi>n</mi></math> ครั้ง โดยมี</p>
+
+<p>อัตราเพิ่ม เป็น <math data-tex="x_1,x_2,...,x_m"><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mspace width="0.25em"></mspace><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><mspace width="0.25em"></mspace><mo>...</mo><mo>,</mo><mspace width="0.25em"></mspace><msub><mi>x</mi><mi>m</mi></msub></math> (ลงทุนได้กำไร <math data-tex="m"><mi>m</mi></math> ครั้ง)</p>
+
+<p>และ อัตราลด เป็น <math data-tex="y_1,y_2,...,y_n"><msub><mi>y</mi><mn>1</mn></msub><mo>,</mo><mspace width="0.25em"></mspace><msub><mi>y</mi><mn>2</mn></msub><mo>,</mo><mspace width="0.25em"></mspace><mo>...</mo><mo>,</mo><mspace width="0.25em"></mspace><msub><mi>y</mi><mi>n</mi></msub></math> (ลงทุนได้กำไร <math data-tex="n"><mi>n</mi></math> ครั้ง)</p>
+
+<p>จำนวนเงินคงเหลือเมื่อสิ้นการลงทุนครั้งที่ <math data-tex="m+n"><mi>m</mi><mo>+</mo><mi>n</mi></math> เท่ากับ</p>
+
+<div class="source-equation" data-tex="(1+x_1)(1+x_2)...(1+x_m)(1-y_1)(1-y_2)...(1-y_n)P_0"><math display="block"><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo><mo>...</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mi>m</mi></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>...</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>y</mi><mi>n</mi></msub><mo>)</mo><msub><mi>P</mi><mn>0</mn></msub></math><span class="equation-number">(1.9)</span></div>
+
+<p>โดยที่ อัตราเพิ่ม(ลด)สะสมเมื่อสิ้นการลงทุนครั้งที่ <math data-tex="m+n"><mi>m</mi><mo>+</mo><mi>n</mi></math> เท่ากับ</p>
+
+<div class="source-equation" data-tex="(1+x_1)(1+x_2)...(1+x_m)(1-y_1)(1-y_2)...(1-y_n)-1"><math display="block"><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>)</mo><mo>...</mo><mo>(</mo><mn>1</mn><mo>+</mo><msub><mi>x</mi><mi>m</mi></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>...</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>y</mi><mi>n</mi></msub><mo>)</mo><mo>−</mo><mn>1</mn></math><span class="equation-number">(1.10)</span></div>
+
+<p>ถ้า สูตร (1.10) มีค่าเป็นบวก แสดงว่า การลงทุนครั้งนี้ได้กำไร นั่นคือเงินที่ได้รับหลังการลงทุนมากกว่าเงินทุนเริ่มต้น แต่ถ้าสูตร (1.10) มีค่าเป็นลบแสดงว่า การลงทุนครั้งนี้ขาดทุน นั่นคือเงินที่ได้รับหลังการลงทุนน้อยกว่าเงินต้น</p>
+
+<p><strong>หมายเหตุ</strong> เราสามารถคำนวณเงินสะสมที่ได้รับ โดยใช้สูตร (1.4) ได้เช่นเดียวกับ สูตร (1.10) โดยการกำหนดเครื่องหมายของอัตราเพิ่มเป็นบวก และกำหนดเครื่องหมายของอัตราลดเป็นลบ</p>
+
+<p><strong>ตัวอย่าง 1.6</strong> สมศักดิ์ลงทุนเปิดร้านขายเครื่องประดับด้วยเงินจำนวน 100,000 บาท ถ้าในช่วงแรกร้านขาดทุน11% และ 7% ในเดือนแรกและเดือนที่สอง จากนั้นเริ่มมีกำไร 15%, 18% และ 22% ในเดือนที่ 3, 4 และ 5 ตามลำดับ จงหาว่าเมื่อครบ 5 เดือน นายสมศักดิ์ได้รับเงินจากการขายเครื่องประดับนั้นเท่าไร และรวมแล้วได้กำไรหรือขาดทุนคิดเป็นร้อยละเท่าไร</p>
+
+<p><strong>วิธีทำ</strong> ในที่นี้ <math data-tex="P_0=100{,}000"><msub><mi>P</mi><mn>0</mn></msub><mo>=</mo><mn>100,000</mn></math> บาท อัตราผลตอบแทนในแต่ละเดือนที่ได้รับ คือ <math data-tex="x_1=-0.11"><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mo>−</mo><mn>0.11</mn></math>, <math data-tex="x_2=-0.07"><msub><mi>x</mi><mn>2</mn></msub><mo>=</mo><mo>−</mo><mn>0.07</mn></math>, <math data-tex="x_3=0.15"><msub><mi>x</mi><mn>3</mn></msub><mo>=</mo><mn>0.15</mn></math>, <math data-tex="x_4=0.18"><msub><mi>x</mi><mn>4</mn></msub><mo>=</mo><mn>0.18</mn></math> และ <math data-tex="x_5=0.22"><msub><mi>x</mi><mn>5</mn></msub><mo>=</mo><mn>0.22</mn></math> ตามลำดับ (เครื่องหมายลบ หมายถึง ขาดทุน) จะได้ นายสมศักดิ์ได้รับเงินจากการขายเครื่องประดับทั้งหมด เท่ากับ</p>

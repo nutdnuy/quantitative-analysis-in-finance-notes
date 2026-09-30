@@ -1,0 +1,52 @@
+<p><strong>ตัวอย่างที่ 1.18</strong> นายดีจังต้องการกู้เงินระยะยาวจำนวน 1,000,000 บาท กำหนดเวลาใช้คืนปลายปีที่ 5 จากสถาบันการเงิน 3 แห่ง เขาควรกู้เงินจากสถาบันการเงินใดจึงจะสามารถกู้ได้ที่ต้นทุนต่ำที่สุด(พิจารณาดอกเบี้ยเป็นต้นทุน) โดยแต่ละสถาบันการเงินเสนออัตราดอกเบี้ย ดังนี้</p>
+<table class="source-table">
+<thead>
+<tr>
+<th>
+ธนาคาร
+</th>
+<th>
+ข้อเสนอ
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+AAA
+</td>
+<td>
+อัตราดอกเบี้ย 10% ต่อปี ทบต้นทุกปี
+</td>
+</tr>
+<tr>
+<td>
+BBB
+</td>
+<td>
+อัตราดอกเบี้ย 10% ต่อปี ทบต้นทุก 3 เดือน
+</td>
+</tr>
+<tr>
+<td>
+CCC
+</td>
+<td>
+อัตราดอกเบี้ย 10% ต่อปี ทบต้นทุกเดือน
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>วิธีทำ</strong> ในที่นี้ต้นทุน การกู้เงิน คือ ดอกเบี้ยจ่ายสะสม คำนวณดอกเบี้ยจ่ายสะสมของแต่ละธนาคาร ดังนี้</p>
+<p><u>สำหรับธนาคาร AAA :</u></p>
+<p>เงินสะสมของหนี้ปลายปีที่ 5 เท่ากับ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.1</mn><msup><mo stretchy="false" form="postfix">)</mo><mn>5</mn></msup><mo>=</mo><mn>1</mn><mo>,</mo><mn>610</mn><mo>,</mo><mn>510</mn></mrow><annotation encoding="application/x-tex">1,000,000(1+0.1)^5=1,610,510</annotation></semantics></math> บาท</p>
+<p>ดังนั้น ดอกเบี้ยจ่ายสะสม <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>,</mo><mn>610</mn><mo>,</mo><mn>510</mn><mo>−</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>=</mo><mn>610</mn><mo>,</mo><mn>510</mn></mrow><annotation encoding="application/x-tex">1,610,510-1,000,000=610,510</annotation></semantics></math> บาท</p>
+<p><u>สำหรับธนาคาร BBB :</u></p>
+<p>เงินสะสมของหนี้ปลายปีที่ 5 เท่ากับ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><msup><mrow><mo stretchy="true" form="prefix">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>0.1</mn><mn>4</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mrow><mn>4</mn><mo stretchy="false" form="prefix">(</mo><mn>5</mn><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo>=</mo><mn>1</mn><mo>,</mo><mn>638</mn><mo>,</mo><mn>616.44</mn></mrow><annotation encoding="application/x-tex">1,000,000\left(1+\frac{0.1}{4}\right)^{4(5)}=1,638,616.44</annotation></semantics></math> บาท</p>
+<p>ดังนั้น ดอกเบี้ยจ่ายสะสม <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>,</mo><mn>638</mn><mo>,</mo><mn>616.44</mn><mo>−</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>=</mo><mn>638</mn><mo>,</mo><mn>616.44</mn></mrow><annotation encoding="application/x-tex">1,638,616.44-1,000,000=638,616.44</annotation></semantics></math> บาท</p>
+<p><u>สำหรับธนาคาร CCC :</u></p>
+<p>เงินสะสมของหนี้ปลายปีที่ 5 เท่ากับ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><msup><mrow><mo stretchy="true" form="prefix">(</mo><mn>1</mn><mo>+</mo><mfrac><mn>0.1</mn><mn>12</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mrow><mn>12</mn><mo stretchy="false" form="prefix">(</mo><mn>5</mn><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo>=</mo><mn>1</mn><mo>,</mo><mn>645</mn><mo>,</mo><mn>308.95</mn></mrow><annotation encoding="application/x-tex">1,000,000\left(1+\frac{0.1}{12}\right)^{12(5)}=1,645,308.95</annotation></semantics></math> บาท</p>
+<p>ดังนั้น ดอกเบี้ยจ่ายสะสม <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>,</mo><mn>645</mn><mo>,</mo><mn>308.95</mn><mo>−</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>=</mo><mn>645</mn><mo>,</mo><mn>308.95</mn></mrow><annotation encoding="application/x-tex">1,645,308.95-1,000,000=645,308.95</annotation></semantics></math> บาท</p>
+<p>ดังนั้น เมื่อพิจารณาจากต้นทุนเงินกู้แล้ว นายดีจังควรเลือกกู้เงินจากธนาคาร AAA □</p>
+<p><strong>ตัวอย่างที่ 1.19</strong> จงหามูลค่าอนาคต ณ ปลายปีที่ 5 ของการลงทุนด้วยเงินต้น 100,000 บาท โดยได้ผลตอบแทนใน 2 ปีแรกเป็นอัตราดอกเบี้ย 4% ต่อปี ทบต้นทุก 3 เดือน ช่วง 2 ปี ถัดมา ได้อัตราดอกเบี้ย 6 % ต่อปีคิดทบต้น ทุกเดือน และในปีสุดท้ายให้ผลตอบแทนด้วยอัตราดอกเบี้ย 8% ต่อปีคิดทบต้นทุก 6 เดือน</p>
+<p><strong>วิธีทำ</strong> จากโจทย์ มีการคิดทบต้นที่แตกต่างกัน 3 เวลา ซึ่งสามารถเขียนแทนได้ด้วยแผนภาพ ดังนี้</p>

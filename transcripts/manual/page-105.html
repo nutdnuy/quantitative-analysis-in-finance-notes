@@ -1,0 +1,65 @@
+<p>กำหนดให้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>v</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>15</mn><msup><mi>v</mi><mn>20</mn></msup><mo>+</mo><mn>5</mn><msup><mi>v</mi><mn>18</mn></msup><mo>+</mo><mn>5</mn><msup><mi>v</mi><mn>10</mn></msup><mo>−</mo><msup><mi>v</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">f(v)=15v^{20}+5v^{18}+5v^{10}-v^2-10</annotation></semantics></math> จะได้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><mi>v</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>300</mn><msup><mi>v</mi><mn>19</mn></msup><mo>+</mo><mn>90</mn><msup><mi>v</mi><mn>18</mn></msup><mo>+</mo><mn>50</mn><msup><mi>v</mi><mn>9</mn></msup><mo>−</mo><mn>2</mn><mi>v</mi></mrow><annotation encoding="application/x-tex">f&#39;(v)=300v^{19}+90v^{18}+50v^9-2v</annotation></semantics></math></p>
+<p>จาก <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mi>n</mi></msub><mo>=</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><mstyle displaystyle="true"><mfrac><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><mrow><msup><mi>f</mi><mo>′</mo></msup><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">v_n=v_{n-1}-\dfrac{f(v_{n-1})}{f&#39;(v_{n-1})}</annotation></semantics></math></p>
+<p>จะได้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mi>n</mi></msub><mo>=</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><mstyle displaystyle="true"><mfrac><mrow><mn>15</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>20</mn></msup><mo>+</mo><mn>5</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>18</mn></msup><mo>+</mo><mn>5</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>10</mn></msup><mo>−</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>2</mn></msup><mo>−</mo><mn>10</mn></mrow><mrow><mn>300</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>19</mn></msup><mo>+</mo><mn>90</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>18</mn></msup><mo>+</mo><mn>50</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><msup><mo stretchy="false" form="postfix">)</mo><mn>9</mn></msup><mo>−</mo><mn>2</mn><mo stretchy="false" form="prefix">(</mo><msub><mi>v</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">v_n=v_{n-1}-\dfrac{15(v_{n-1})^{20}+5(v_{n-1})^{18}+5(v_{n-1})^{10}-(v_{n-1})^2-10}{300(v_{n-1})^{19}+90(v_{n-1})^{18}+50(v_{n-1})^9-2(v_{n-1})}</annotation></semantics></math></p>
+<p>เนื่องจากโจทย์ไม่ได้กำหนด อัตราดอกเบี้ยเริ่มต้น และเราทราบว่า <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>i</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">v=(1+i)^{-1}&lt;1</annotation></semantics></math> ดังนั้นสุ่มเลือก <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><mn>0.9</mn></mrow><annotation encoding="application/x-tex">v_0=0.9</annotation></semantics></math> โดยที่ค่าของ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>v</mi><annotation encoding="application/x-tex">v</annotation></semantics></math> ในแต่ละรอบแสดงในตาราง ต่อไปนี้</p>
+<table class="source-table">
+<tbody>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>0</mn></msub><mo>=</mo><mn>0.900000</mn></mrow><annotation encoding="application/x-tex">v_0=0.900000</annotation></semantics></math>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>1</mn></msub><mo>=</mo><mn>0.990671</mn></mrow><annotation encoding="application/x-tex">v_1=0.990671</annotation></semantics></math>
+</td>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>v</mi><mn>1</mn></msub><mo>−</mo><msub><mi>v</mi><mn>0</mn></msub><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><mn>0.990671</mn><mo>−</mo><mn>0.900000</mn><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mn>0.090671</mn></mrow><annotation encoding="application/x-tex">\left|v_1-v_0\right|=\left|0.990671-0.900000\right|=0.090671</annotation></semantics></math>
+</td>
+</tr>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>2</mn></msub><mo>=</mo><mn>0.963099</mn></mrow><annotation encoding="application/x-tex">v_2=0.963099</annotation></semantics></math>
+</td>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>v</mi><mn>2</mn></msub><mo>−</mo><msub><mi>v</mi><mn>1</mn></msub><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><mn>0.963099</mn><mo>−</mo><mn>0.990671</mn><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mn>0.027572</mn></mrow><annotation encoding="application/x-tex">\left|v_2-v_1\right|=\left|0.963099-0.990671\right|=0.027572</annotation></semantics></math>
+</td>
+</tr>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>3</mn></msub><mo>=</mo><mn>0.953739</mn></mrow><annotation encoding="application/x-tex">v_3=0.953739</annotation></semantics></math>
+</td>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>v</mi><mn>3</mn></msub><mo>−</mo><msub><mi>v</mi><mn>2</mn></msub><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><mn>0.953739</mn><mo>−</mo><mn>0.963099</mn><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mn>0.009360</mn></mrow><annotation encoding="application/x-tex">\left|v_3-v_2\right|=\left|0.953739-0.963099\right|=0.009360</annotation></semantics></math>
+</td>
+</tr>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>4</mn></msub><mo>=</mo><mn>0.952942</mn></mrow><annotation encoding="application/x-tex">v_4=0.952942</annotation></semantics></math>
+</td>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>v</mi><mn>4</mn></msub><mo>−</mo><msub><mi>v</mi><mn>3</mn></msub><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><mn>0.952942</mn><mo>−</mo><mn>0.953739</mn><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mn>0.000797</mn></mrow><annotation encoding="application/x-tex">\left|v_4-v_3\right|=\left|0.952942-0.953739\right|=0.000797</annotation></semantics></math>
+</td>
+</tr>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>5</mn></msub><mo>=</mo><mn>0.952944</mn></mrow><annotation encoding="application/x-tex">v_5=0.952944</annotation></semantics></math>
+</td>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>v</mi><mn>5</mn></msub><mo>−</mo><msub><mi>v</mi><mn>4</mn></msub><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><mn>0.952944</mn><mo>−</mo><mn>0.952942</mn><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mn>0.000002</mn></mrow><annotation encoding="application/x-tex">\left|v_5-v_4\right|=\left|0.952944-0.952942\right|=0.000002</annotation></semantics></math>
+</td>
+</tr>
+<tr>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mn>6</mn></msub><mo>=</mo><mn>0.952944</mn></mrow><annotation encoding="application/x-tex">v_6=0.952944</annotation></semantics></math>
+</td>
+<td>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mo stretchy="true" form="prefix">|</mo><msub><mi>v</mi><mn>6</mn></msub><mo>−</mo><msub><mi>v</mi><mn>5</mn></msub><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><mn>0.952944</mn><mo>−</mo><mn>0.952944</mn><mo stretchy="true" form="postfix">|</mo></mrow><mo>=</mo><mn>0.000000</mn></mrow><annotation encoding="application/x-tex">\left|v_6-v_5\right|=\left|0.952944-0.952944\right|=0.000000</annotation></semantics></math>
+</td>
+</tr>
+</tbody>
+</table>
+<p>ดังนั้น <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>i</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>=</mo><mi>v</mi><mo>≈</mo><mn>0.952944</mn></mrow><annotation encoding="application/x-tex">(1+i)^{-1}=v\approx0.952944</annotation></semantics></math> ทำให้ได้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>i</mi><mo>≈</mo><msup><mn>0.952944</mn><mrow><mi>−</mi><mn>1</mn></mrow></msup><mo>−</mo><mn>1</mn><mo>≈</mo><mn>0.049380</mn></mrow><annotation encoding="application/x-tex">i\approx0.952944^{-1}-1\approx0.049380</annotation></semantics></math></p>
+<p>นั่นคืออัตราดอกเบี้ยต่อปี คิดทบต้นทุก 6 เดือน <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>i</mi><mrow><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo>≈</mo><mn>0.049380</mn><mo>×</mo><mn>2</mn><mo>=</mo><mn>0.09876</mn></mrow><annotation encoding="application/x-tex">i^{(2)}\approx0.049380\times2=0.09876</annotation></semantics></math> □</p>

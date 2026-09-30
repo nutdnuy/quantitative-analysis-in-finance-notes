@@ -1,0 +1,285 @@
+{
+  "chapter": 1,
+  "source_pdf": "assets/QAF-completed-handbook.pdf",
+  "source_sha256": "c74929f8e9137c2145427f537c81b578af6ba4727c77b7f1851480d1a770fa2c",
+  "selected_pages": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "reviewed": [
+    {
+      "pdf_page": 10,
+      "printed_page": 1,
+      "reviewed_source": "transcripts/manual/page-010.md"
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 2,
+      "reviewed_source": "transcripts/manual/page-011.html"
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 3,
+      "reviewed_source": "transcripts/manual/page-012.html"
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 4,
+      "reviewed_source": "transcripts/manual/page-013.html"
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 5,
+      "reviewed_source": "transcripts/manual/page-014.html"
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 6,
+      "reviewed_source": "transcripts/manual/page-015.html"
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 7,
+      "reviewed_source": "transcripts/manual/page-016.html"
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 8,
+      "reviewed_source": "transcripts/manual/page-017.html"
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 9,
+      "reviewed_source": "transcripts/manual/page-018.html"
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 10,
+      "reviewed_source": "transcripts/manual/page-019.html"
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 11,
+      "reviewed_source": "transcripts/manual/page-020.html"
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 12,
+      "reviewed_source": "transcripts/manual/page-021.html"
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 13,
+      "reviewed_source": "transcripts/manual/page-022.html"
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 14,
+      "reviewed_source": "transcripts/manual/page-023.html"
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 15,
+      "reviewed_source": "transcripts/manual/page-024.html"
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 16,
+      "reviewed_source": "transcripts/manual/page-025.html"
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 17,
+      "reviewed_source": "transcripts/manual/page-026.html"
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 18,
+      "reviewed_source": "transcripts/manual/page-027.html"
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 19,
+      "reviewed_source": "transcripts/manual/page-028.html"
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 20,
+      "reviewed_source": "transcripts/manual/page-029.html"
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 21,
+      "reviewed_source": "transcripts/manual/page-030.html"
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 22,
+      "reviewed_source": "transcripts/manual/page-031.html"
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 23,
+      "reviewed_source": "transcripts/manual/page-032.html"
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 24,
+      "reviewed_source": "transcripts/manual/page-033.html"
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": 25,
+      "reviewed_source": "transcripts/manual/page-034.html"
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": 26,
+      "reviewed_source": "transcripts/manual/page-035.html"
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": 27,
+      "reviewed_source": "transcripts/manual/page-036.html"
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": 28,
+      "reviewed_source": "transcripts/manual/page-037.html"
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 29,
+      "reviewed_source": "transcripts/manual/page-038.html"
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 30,
+      "reviewed_source": "transcripts/manual/page-039.html"
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": 31,
+      "reviewed_source": "transcripts/manual/page-040.html"
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": 32,
+      "reviewed_source": "transcripts/manual/page-041.html"
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": 33,
+      "reviewed_source": "transcripts/manual/page-042.html"
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 34,
+      "reviewed_source": "transcripts/manual/page-043.html"
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 35,
+      "reviewed_source": "transcripts/manual/page-044.html"
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 36,
+      "reviewed_source": "transcripts/manual/page-045.html"
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": 37,
+      "reviewed_source": "transcripts/manual/page-046.html"
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 39,
+      "reviewed_source": "transcripts/manual/page-048.html"
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 40,
+      "reviewed_source": "transcripts/manual/page-049.html"
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 41,
+      "reviewed_source": "transcripts/manual/page-050.html"
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 42,
+      "reviewed_source": "transcripts/manual/page-051.html"
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 43,
+      "reviewed_source": "transcripts/manual/page-052.html"
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 44,
+      "reviewed_source": "transcripts/manual/page-053.html"
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 45,
+      "reviewed_source": "transcripts/manual/page-054.html"
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 46,
+      "reviewed_source": "transcripts/manual/page-055.html"
+    }
+  ],
+  "unreviewed": [],
+  "blank_source_pages": [
+    47
+  ],
+  "publishable_complete": true
+}

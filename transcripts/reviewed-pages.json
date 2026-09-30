@@ -1,0 +1,1565 @@
+{
+  "source_pdf_sha256": "c74929f8e9137c2145427f537c81b578af6ba4727c77b7f1851480d1a770fa2c",
+  "pages": {
+    "2": {
+      "manual_file": "transcripts/manual/page-002.html",
+      "sha256": "a22a3340fdd5ade47b885b502f7b4911cd40e0ace87f4e81e059b0c7a28696ce"
+    },
+    "3": {
+      "manual_file": "transcripts/manual/page-003.html",
+      "sha256": "dc12087ac88a199078a2f20dcd29a55bea23ce34fe59b9f5f0270070b7b12bc0"
+    },
+    "4": {
+      "manual_file": "transcripts/manual/page-004.html",
+      "sha256": "0f3581154c381cc0ed55ed7f66d1412a2fa1c1f1c53027c99c1d1bac42c13066"
+    },
+    "6": {
+      "manual_file": "transcripts/manual/page-006.html",
+      "sha256": "0e89cb0d423aba76cf1408be695960852575db31b997756317fe6edc670a4765"
+    },
+    "7": {
+      "manual_file": "transcripts/manual/page-007.html",
+      "sha256": "5e04479369935e82ecf1f47e4cd8b0044e047f664651659d3c3054e96c6b7998"
+    },
+    "8": {
+      "manual_file": "transcripts/manual/page-008.html",
+      "sha256": "c05beb0fa309ac16977a2a0c059935e611a298d131901694ceb29168113f4991"
+    },
+    "10": {
+      "manual_file": "transcripts/manual/page-010.md",
+      "sha256": "18c45c019a34d4c636c5c99554dbd674931381ee94316de494320ff008a291c7"
+    },
+    "11": {
+      "manual_file": "transcripts/manual/page-011.html",
+      "sha256": "efcf1c47d5b91192fa62fb9ef06852e92d0915ff3fe19d25a5b1486f59ed2e76"
+    },
+    "12": {
+      "manual_file": "transcripts/manual/page-012.html",
+      "sha256": "6dab9714582d17e518b5cd4047232be39cc2bbcd0170f8183c66b76139137b1c"
+    },
+    "13": {
+      "manual_file": "transcripts/manual/page-013.html",
+      "sha256": "bae4fa7af63283f02c1170ee7c73ac53b3819622851840163f820b576ce1ca5e"
+    },
+    "14": {
+      "manual_file": "transcripts/manual/page-014.html",
+      "sha256": "88b2490d53eeecd2b72206dbaf760274b88672847a35cfee735435931841c428"
+    },
+    "15": {
+      "manual_file": "transcripts/manual/page-015.html",
+      "sha256": "136b1689eabad1cb6a25a2b4755ce5838f61e79e313265a5c02b5462764f8abe"
+    },
+    "16": {
+      "manual_file": "transcripts/manual/page-016.html",
+      "sha256": "0726a399bbb2332f723d3f11dd80a44023d4a0f5ca0b85036d0145cdf5b04d6a"
+    },
+    "17": {
+      "manual_file": "transcripts/manual/page-017.html",
+      "sha256": "80cafaa13193d7b450f6830b161af7deb78ad8abdbf4227fd578bb5ba9a7c3a8"
+    },
+    "18": {
+      "manual_file": "transcripts/manual/page-018.html",
+      "sha256": "158cfb6811f918a0d5707fe9419cadebbab88a8ae0984c5642d552a70342fe3a"
+    },
+    "19": {
+      "manual_file": "transcripts/manual/page-019.html",
+      "sha256": "2d17cb5351fc29e597fc5cc5a20133c621b2c7311acec8c94d46646cd84492a3"
+    },
+    "20": {
+      "manual_file": "transcripts/manual/page-020.html",
+      "sha256": "b31975b6ecf94379e04f04d7dcad8553954070cdab795588fddab7b037d678a0"
+    },
+    "21": {
+      "manual_file": "transcripts/manual/page-021.html",
+      "sha256": "f7524e2e171741884b0cf2a1833ae17aa9eced34d063edc00e83645e9b65c330"
+    },
+    "22": {
+      "manual_file": "transcripts/manual/page-022.html",
+      "sha256": "4780312072763b71acdcee8c8fb12fad5fcce84d86fb90d3517b854e030eb4bf"
+    },
+    "23": {
+      "manual_file": "transcripts/manual/page-023.html",
+      "sha256": "f1bb07ec6a69fe85c49dcb0475c38dd2fd380ce97d476109bc08f64968a8f778"
+    },
+    "24": {
+      "manual_file": "transcripts/manual/page-024.html",
+      "sha256": "803ce2a9d99b683b7f7fd8c4afeb4ae583c85ab3ea42997fd9045df10354da49"
+    },
+    "25": {
+      "manual_file": "transcripts/manual/page-025.html",
+      "sha256": "e0cec5073e334a4d12a894f05bc9fd93e15dc4833a0b06b9112a5facba71a351"
+    },
+    "26": {
+      "manual_file": "transcripts/manual/page-026.html",
+      "sha256": "722bf70c68fb8a5892546dddd3a00fdafa7c97a3c1c82096f23c8754eb5ff21c"
+    },
+    "27": {
+      "manual_file": "transcripts/manual/page-027.html",
+      "sha256": "5042eef2206048cf799cfb495bd288191063e71fccda85951d714cc2cf645946"
+    },
+    "28": {
+      "manual_file": "transcripts/manual/page-028.html",
+      "sha256": "221f3e6e03f049b453959d307e2e27789fb26456bf9072e651ff7ce149161ef3"
+    },
+    "29": {
+      "manual_file": "transcripts/manual/page-029.html",
+      "sha256": "87bd68a7c098bb9b3cd65ba59750814b371e078cfd9750cd8e7886ddf4fc85f8"
+    },
+    "30": {
+      "manual_file": "transcripts/manual/page-030.html",
+      "sha256": "7164d2a37fe483133bb2053eedc3f7d49ce487b7419dd30fb5b976ab49270d23"
+    },
+    "31": {
+      "manual_file": "transcripts/manual/page-031.html",
+      "sha256": "ebf0b124ca3ba6452ee2ba5ab974203630bb068577c8e8707f83b6ebfad53754"
+    },
+    "32": {
+      "manual_file": "transcripts/manual/page-032.html",
+      "sha256": "79639691cf31268548651c98a97a813c9d28551f6ff7797a227136bcc185da69"
+    },
+    "33": {
+      "manual_file": "transcripts/manual/page-033.html",
+      "sha256": "660114c30f5ce0860fa023c7a3c5213141306d59332a38a01cc29b91646e393c"
+    },
+    "34": {
+      "manual_file": "transcripts/manual/page-034.html",
+      "sha256": "247e4b059dc8b7b0161add8fd65330fdaed80a7a84ff45cd9caaf746856c724f"
+    },
+    "35": {
+      "manual_file": "transcripts/manual/page-035.html",
+      "sha256": "f10e13ba43aea8426a131d40531d926eac388a2ebe42c46f1b28df5f8fb2ea12"
+    },
+    "36": {
+      "manual_file": "transcripts/manual/page-036.html",
+      "sha256": "a04a18a091be609faffa5ced8eaedbc6eae9ecc250731bcfe07497147378a411"
+    },
+    "37": {
+      "manual_file": "transcripts/manual/page-037.html",
+      "sha256": "a4adefe2ebb3d730ac6231aca3c60ebc42b64d93af0d7a213e0944df28def95f"
+    },
+    "38": {
+      "manual_file": "transcripts/manual/page-038.html",
+      "sha256": "f01b4408e19bd8597d0ee35c67407c11901c4cf1654da11779d770f04a3fb046"
+    },
+    "39": {
+      "manual_file": "transcripts/manual/page-039.html",
+      "sha256": "713329874a4e01499a0437c504a8c44c18ee779f7235fa1bb18858ea36f910da"
+    },
+    "40": {
+      "manual_file": "transcripts/manual/page-040.html",
+      "sha256": "8b8dd31e951c50eba426950deda33394ece2b605aefd8147823dbf54966e05c5"
+    },
+    "41": {
+      "manual_file": "transcripts/manual/page-041.html",
+      "sha256": "e8953e54383fd152f135cb1b76641ae831028e7d281715cb9c01bd3d8e4e01ae"
+    },
+    "42": {
+      "manual_file": "transcripts/manual/page-042.html",
+      "sha256": "bd3be43d04f2da0eff22e079393a10b2ce286b94309850cbc39e4f39651be4c2"
+    },
+    "43": {
+      "manual_file": "transcripts/manual/page-043.html",
+      "sha256": "24911a7beae081fd7d75f7b0467eaa6ad06f2815e8f57cd83e95d3379fe56c75"
+    },
+    "44": {
+      "manual_file": "transcripts/manual/page-044.html",
+      "sha256": "d252b59a36b90fdbd41af317609a19fded1c50cd444693426bef9001cd71c178"
+    },
+    "45": {
+      "manual_file": "transcripts/manual/page-045.html",
+      "sha256": "052bf21517c975038c445724369c7cff9c45dd472ea48cca1bc49b5294179e17"
+    },
+    "46": {
+      "manual_file": "transcripts/manual/page-046.html",
+      "sha256": "58dd81e690f2a6d9b035feabf2291bd36c21eebfbe5ea858530690f900f49af6"
+    },
+    "48": {
+      "manual_file": "transcripts/manual/page-048.html",
+      "sha256": "a6b00ed53a886715a33f3eea01387bed86238e3a8f43f6db8446f1fc07fcc1a4"
+    },
+    "49": {
+      "manual_file": "transcripts/manual/page-049.html",
+      "sha256": "fbb6e2ee5b9435e5ec57c540a99d6ee3a5ec1b7fe95f6bb6006746fdd209c0e3"
+    },
+    "50": {
+      "manual_file": "transcripts/manual/page-050.html",
+      "sha256": "b1b1e8123d2031b7571070a6915d89c2217689b0b041fbd97652bbd04a528497"
+    },
+    "51": {
+      "manual_file": "transcripts/manual/page-051.html",
+      "sha256": "0150a900c2bf1faab987092833a9e896c4e7d368826e23a605bca2354eb38e6b"
+    },
+    "52": {
+      "manual_file": "transcripts/manual/page-052.html",
+      "sha256": "2373129828fbd83703bbce2c23e6cd34947552da33f8fc0ea9522aa35d958a06"
+    },
+    "53": {
+      "manual_file": "transcripts/manual/page-053.html",
+      "sha256": "a4c33cc7d579736ae79eb76917602c713f81d99d65621e6c3724e6ee24106c92"
+    },
+    "54": {
+      "manual_file": "transcripts/manual/page-054.html",
+      "sha256": "a9835119b34f20fa48f07af401f5acb73c640959bd45339b48670a97d39737d2"
+    },
+    "55": {
+      "manual_file": "transcripts/manual/page-055.html",
+      "sha256": "f63ca3b13768f9996437889d5425e5f5b502751e0bfe40a74b534f3c16a84a46"
+    },
+    "56": {
+      "manual_file": "transcripts/manual/page-056.html",
+      "sha256": "72fdc0d4b8ab601dad1a3fca71296236c728c439af2765e4e21bfe3fb4f34b39"
+    },
+    "57": {
+      "manual_file": "transcripts/manual/page-057.html",
+      "sha256": "120cc2b3d5d37f1b6b71a3ee748b8846f012f4d9ca3f6267406075c82e77224f"
+    },
+    "58": {
+      "manual_file": "transcripts/manual/page-058.html",
+      "sha256": "b13b565c7e967e2786d56bd0e8e56f94a00e24bd2e0f0b06d6a2638d11868b6b"
+    },
+    "59": {
+      "manual_file": "transcripts/manual/page-059.html",
+      "sha256": "230046eabf502e76a65c67996f669347af44e676e0ecbe98040596cca55b540f"
+    },
+    "60": {
+      "manual_file": "transcripts/manual/page-060.html",
+      "sha256": "79631f0473f272f62acc725259acfa9c32608864ee85dcda51ff76d4b3d8bb88"
+    },
+    "61": {
+      "manual_file": "transcripts/manual/page-061.html",
+      "sha256": "4f7ab4de2383f9176c086472e26e0f3afddd61f3e0edad0c7f27574fc058ab02"
+    },
+    "62": {
+      "manual_file": "transcripts/manual/page-062.html",
+      "sha256": "1ee9af131771119c4ef50c0790f24495486e13b68f94625ff95edf56d1b7ad35"
+    },
+    "63": {
+      "manual_file": "transcripts/manual/page-063.html",
+      "sha256": "1eb5d2a66a603985de6a1a6f71b133b45df0165bec3d053ce1e7059689ee177a"
+    },
+    "64": {
+      "manual_file": "transcripts/manual/page-064.html",
+      "sha256": "28d8d1c2a3cff0de7adbf720a740737b1015b38b1a93abf308fba8b39d7d7536"
+    },
+    "65": {
+      "manual_file": "transcripts/manual/page-065.html",
+      "sha256": "95b6eb01b5378f1fa446678a379c4d6a8ffb75af95193d4858c86059a63092de"
+    },
+    "66": {
+      "manual_file": "transcripts/manual/page-066.html",
+      "sha256": "dc23503e693680fa39d0acf4945e04c44bed1cb9c9a271c56b85174d1ec54555"
+    },
+    "67": {
+      "manual_file": "transcripts/manual/page-067.html",
+      "sha256": "916625edd3d4906441eb7d5cf669ffa9b0ea8686013dfc400d51add64d041b47"
+    },
+    "68": {
+      "manual_file": "transcripts/manual/page-068.html",
+      "sha256": "b37fc50103de83ba56b261192d4f90969a0f6b369c34f15d8a87220accf5c721"
+    },
+    "69": {
+      "manual_file": "transcripts/manual/page-069.html",
+      "sha256": "f248c0d1e6c8dcde55a04f73d761737a4e34ae1292d9b8f634adbc889c290c40"
+    },
+    "70": {
+      "manual_file": "transcripts/manual/page-070.html",
+      "sha256": "f8760fd2c6fe1bc4b124999cbbfb22508f36efba9a1229549b699ecb71f60c10"
+    },
+    "71": {
+      "manual_file": "transcripts/manual/page-071.html",
+      "sha256": "0146838eece70e12858b4cc995aa7d2a22a97b3b6ccb55452055cc3ef91ef08c"
+    },
+    "72": {
+      "manual_file": "transcripts/manual/page-072.html",
+      "sha256": "4808f24294d14af1931ab08384ffe92724348738c14ad87c4bd8ada812ea10e0"
+    },
+    "73": {
+      "manual_file": "transcripts/manual/page-073.html",
+      "sha256": "0efccb9d429700fdb2a522aafb32a8100599f7c147a86f09c50701b567301c31"
+    },
+    "74": {
+      "manual_file": "transcripts/manual/page-074.html",
+      "sha256": "547ceeeb901f5994535e78d317a5c2c1ffc6553b7cc1aeeef79368a4fb2e7750"
+    },
+    "75": {
+      "manual_file": "transcripts/manual/page-075.html",
+      "sha256": "1f6ebf07b1c83d26072b330d3fbe28368c5b008c37863e6517b910befd442d46"
+    },
+    "76": {
+      "manual_file": "transcripts/manual/page-076.html",
+      "sha256": "c1c27b6105c67a582874e0d63598c3414867cc1678dc1e2295b192432da418ec"
+    },
+    "77": {
+      "manual_file": "transcripts/manual/page-077.html",
+      "sha256": "a3fb5bf9276b08551d74ba2baab73cd4d1ce074293b1a7fbccd37e6604b9e32b"
+    },
+    "78": {
+      "manual_file": "transcripts/manual/page-078.html",
+      "sha256": "57283aebb88c31f2bbecbf485efda5fddfc79bd3fbb856e78ea6a10b6e73d320"
+    },
+    "79": {
+      "manual_file": "transcripts/manual/page-079.html",
+      "sha256": "7767d159f1bee2299f437dcf24b4cee94ccc5f75e97fc7e8360a6d211d4b1b1b"
+    },
+    "80": {
+      "manual_file": "transcripts/manual/page-080.html",
+      "sha256": "17b2059f8e85742f10cf14f3452b86cd3bd0586572c68ee136957f22f85f64a7"
+    },
+    "81": {
+      "manual_file": "transcripts/manual/page-081.html",
+      "sha256": "e0ce7f59e652e15d380753e9031e47ab5593b43546c0c54209ecab0df8c1cb6b"
+    },
+    "82": {
+      "manual_file": "transcripts/manual/page-082.html",
+      "sha256": "fd23c637f6cb23d827f6cfc7a6a4ee8cff90e503d60a3d6f9a75e4e2fe1af9f4"
+    },
+    "83": {
+      "manual_file": "transcripts/manual/page-083.html",
+      "sha256": "f6119f935246245af060ab99e111fe67a84ddd07fecdca319be74ed8c3d05f6c"
+    },
+    "84": {
+      "manual_file": "transcripts/manual/page-084.html",
+      "sha256": "3976813d6a6006111e0f3dffac861360f60c2e931bc8c82640a8af2dea3bcacf"
+    },
+    "86": {
+      "manual_file": "transcripts/manual/page-086.html",
+      "sha256": "7ddea96401263de10fe9d623cea87be2b47d42e889761aa80f76314b66af95d4"
+    },
+    "87": {
+      "manual_file": "transcripts/manual/page-087.html",
+      "sha256": "158928132ae744f9b8ffae0d828bd84be6d6504183b796a46d3cd9b95c3bdfb5"
+    },
+    "88": {
+      "manual_file": "transcripts/manual/page-088.html",
+      "sha256": "c7a7de0bd5391b1a9ef4e5febd011ac86819c9c8ca08053bd293933c8e8296e5"
+    },
+    "89": {
+      "manual_file": "transcripts/manual/page-089.html",
+      "sha256": "a34849144ce4b63866638c8a260f4b8b1c3a75ab6601b1d3d6f49b9cee2f7199"
+    },
+    "90": {
+      "manual_file": "transcripts/manual/page-090.html",
+      "sha256": "dc2d36a0d0955ae8400e749334e88818d12c327ca5ccfcfc01514aaaf9a4510c"
+    },
+    "92": {
+      "manual_file": "transcripts/manual/page-092.html",
+      "sha256": "4b103d2a9c8e592432f31cf56fceeab091476980c550b49f1cb828fc5cd4b900"
+    },
+    "93": {
+      "manual_file": "transcripts/manual/page-093.html",
+      "sha256": "3ea4b0c9c8ac70fca5829534365becee7e5ab7a88c1e0e751c2809a8d266fc5a"
+    },
+    "94": {
+      "manual_file": "transcripts/manual/page-094.html",
+      "sha256": "c4d6980d6494c166b964da88979626e40410aefc398efa6cfd176d937c48304a"
+    },
+    "95": {
+      "manual_file": "transcripts/manual/page-095.html",
+      "sha256": "cd6af624ab2540a0af695a80808de480e2b5097b6fba3153ffa74b4fa686cccf"
+    },
+    "96": {
+      "manual_file": "transcripts/manual/page-096.html",
+      "sha256": "8949b6df24e2bac7d6df4c844ab0e866f1e36f751050e8b938173f87e4e0c4b6"
+    },
+    "97": {
+      "manual_file": "transcripts/manual/page-097.html",
+      "sha256": "b1684a6a809ee356cfbffcf4067f844e7b22a20d21edde7a453084f643080987"
+    },
+    "98": {
+      "manual_file": "transcripts/manual/page-098.html",
+      "sha256": "a35ee46d30963fa6573110a903ef74abf4547ceab217b5a36e09e662363c0b7c"
+    },
+    "99": {
+      "manual_file": "transcripts/manual/page-099.html",
+      "sha256": "0cc5ca197941414e6c596f30188e23befec48ca257e1cabeeefebf146edcaa39"
+    },
+    "100": {
+      "manual_file": "transcripts/manual/page-100.html",
+      "sha256": "36215d947b785e185bfa93596d7064db2a08fc8dee824649fbd3990cd12c8a6f"
+    },
+    "101": {
+      "manual_file": "transcripts/manual/page-101.html",
+      "sha256": "ff71134206602c512c4c724910b2d741a0bbc0320498068aae7e512f91949d99"
+    },
+    "102": {
+      "manual_file": "transcripts/manual/page-102.html",
+      "sha256": "f55a3d0660d9696ca4b02a373699e70885522f6b9adcba0d62ec83d1d0624a4c"
+    },
+    "103": {
+      "manual_file": "transcripts/manual/page-103.html",
+      "sha256": "78e3effa818d4b317de627fec7cd32ab11c6ed2c3f39cac2aa95def5689ec7c5"
+    },
+    "104": {
+      "manual_file": "transcripts/manual/page-104.html",
+      "sha256": "c88518f2caf8a6004295594a1e1edbccc8297d96b320b8d55702a2d00a1bee75"
+    },
+    "105": {
+      "manual_file": "transcripts/manual/page-105.html",
+      "sha256": "f59a837c7703a9bdc5c368caab6dff4e025ac5d69a03959e20f471184548e35c"
+    },
+    "106": {
+      "manual_file": "transcripts/manual/page-106.html",
+      "sha256": "78416d5b4f798961f6f5270ef20b6d0757d09f949d7115c126eede120218933e"
+    },
+    "107": {
+      "manual_file": "transcripts/manual/page-107.html",
+      "sha256": "3c2161d3925d5364495b47167dc586657e35a7c5bb0ea4fef5c3eaf9003e416e"
+    },
+    "108": {
+      "manual_file": "transcripts/manual/page-108.html",
+      "sha256": "2e73479ea625c26db3d6759fd766cdcaca0ab3ad44645dbf66ed740329aeb629"
+    },
+    "109": {
+      "manual_file": "transcripts/manual/page-109.html",
+      "sha256": "1d86a6d6df80220564b19076865809d06c8ee000a70836905197b894a3d688d7"
+    },
+    "110": {
+      "manual_file": "transcripts/manual/page-110.html",
+      "sha256": "ef9d981348c997b164e8d13ebfb586c42ec49684445355e2bf091d903ef0d078"
+    },
+    "111": {
+      "manual_file": "transcripts/manual/page-111.html",
+      "sha256": "f0f8636c972912791e175c6c643ee939c03eabe8d62e8765388d901170a680be"
+    },
+    "112": {
+      "manual_file": "transcripts/manual/page-112.html",
+      "sha256": "ed87881b89a83d8436e53b8bebc199f7e4a222e5c016cfa4b06b59861d69dd79"
+    },
+    "113": {
+      "manual_file": "transcripts/manual/page-113.html",
+      "sha256": "1e3739b81afea0b30ada6c2abff41e7274bc48d735aa38e360717790ecd5c758"
+    },
+    "114": {
+      "manual_file": "transcripts/manual/page-114.html",
+      "sha256": "d3be4c51a21fb395a025a0ec4cdc21e25d06cfdea28e2100b9630280d99da87e"
+    },
+    "115": {
+      "manual_file": "transcripts/manual/page-115.html",
+      "sha256": "2a9572f30a6659dc1906e2791b23992b8a7a4f85829934e3639355b0fa20eb58"
+    },
+    "116": {
+      "manual_file": "transcripts/manual/page-116.html",
+      "sha256": "09a93e210534f0ce4b474cdf6d8ff372707a290e6c9957bcbf99dd0c2949b98a"
+    },
+    "117": {
+      "manual_file": "transcripts/manual/page-117.html",
+      "sha256": "b6c4b6878b4932d6b206da92104e9050061767057007ceb3b9fe707c1d8efc13"
+    },
+    "118": {
+      "manual_file": "transcripts/manual/page-118.html",
+      "sha256": "451de3f59f9af403838ccb24f433f447a2c59d8d4f614e13c09fa1b04a15493b"
+    },
+    "119": {
+      "manual_file": "transcripts/manual/page-119.html",
+      "sha256": "6f339eb49680864cb5de3491e1a64a004d8cffbd1aa4c4f1a90a34cca5639da4"
+    },
+    "120": {
+      "manual_file": "transcripts/manual/page-120.html",
+      "sha256": "07e0fd71038609a63d1e03d7abce62f95f0f23ac68baaa045dbedb3fdb71d1ac"
+    },
+    "121": {
+      "manual_file": "transcripts/manual/page-121.html",
+      "sha256": "af01acad03fa0fc5b3804e03c40c2b9ffab58122eaedba6a08f8bb52ea11efef"
+    },
+    "122": {
+      "manual_file": "transcripts/manual/page-122.html",
+      "sha256": "0695e1e9721fb09fa383f9ac1fe83708264963b536351eba646bd4d42f37e281"
+    },
+    "123": {
+      "manual_file": "transcripts/manual/page-123.html",
+      "sha256": "bb0e1f3a481023b7a310360f97a7d1908ac183fd07878465db362dd2e11c034c"
+    },
+    "124": {
+      "manual_file": "transcripts/manual/page-124.html",
+      "sha256": "a50e91c6e9be3728f2f8d63a24b395a486d26a0795b5b85b3f8372a118adae92"
+    },
+    "125": {
+      "manual_file": "transcripts/manual/page-125.html",
+      "sha256": "c07d3e1e2246bdc78433cd00bf5f32ffce6c86b320a66156d78dfd3b939d2d16"
+    },
+    "126": {
+      "manual_file": "transcripts/manual/page-126.html",
+      "sha256": "7f148cf0dfe8fa33079a28d22e1761df60b459fa9e34a584ababf9eaba732c71"
+    },
+    "127": {
+      "manual_file": "transcripts/manual/page-127.html",
+      "sha256": "c2044bf8b573695130098455b0798b7c2b8e936429c362b5691684739a433dc3"
+    },
+    "128": {
+      "manual_file": "transcripts/manual/page-128.html",
+      "sha256": "3e91ea8e19fd9387e2ab22adaac59d753c1a67ed55d5570a9f629c239d729b02"
+    },
+    "129": {
+      "manual_file": "transcripts/manual/page-129.html",
+      "sha256": "f706cbcf213e269c92a5729c160d92e712fc6e0c0531362ccdc5d14659e5aa58"
+    },
+    "130": {
+      "manual_file": "transcripts/manual/page-130.html",
+      "sha256": "af8313d7930952ffef5175d1f7d6dc60126de54ca9f0d91e66be47add5f07a60"
+    },
+    "131": {
+      "manual_file": "transcripts/manual/page-131.html",
+      "sha256": "13becabdf36f38392358df62c2c0ad1f16f0412323878b144847550a45659088"
+    },
+    "132": {
+      "manual_file": "transcripts/manual/page-132.html",
+      "sha256": "30475ccdd78ca3d20c2ef5718e65cc8a4b6cc3e916f9627bfda68829e0246cdd"
+    },
+    "133": {
+      "manual_file": "transcripts/manual/page-133.html",
+      "sha256": "7d28d90f6de92b38f28ecbaf568c0f2b9ac61bd4a0c7334d40d1ad3ae0877517"
+    },
+    "134": {
+      "manual_file": "transcripts/manual/page-134.html",
+      "sha256": "101d4329300619f260cdd989b96349bdb57d24f7b23f2601198aef562d140cd6"
+    },
+    "135": {
+      "manual_file": "transcripts/manual/page-135.html",
+      "sha256": "9dd11fe70e7bde58348cd43c72fd6769337e800399b150aa8ece87f27d0b12be"
+    },
+    "136": {
+      "manual_file": "transcripts/manual/page-136.html",
+      "sha256": "a26da3a818cfdf92e44d570015e0356f4d1d4e3f32ff05adf499ede0edca9150"
+    },
+    "138": {
+      "manual_file": "transcripts/manual/page-138.html",
+      "sha256": "b39ab1963c18a68e61592fca41472da069fff76fef24fca8137d1e1fc707d7a7"
+    },
+    "139": {
+      "manual_file": "transcripts/manual/page-139.html",
+      "sha256": "720b4d098ce45f62dcf4685b811de5b6e963bc87ba1dc6aafdebb1211b8943ed"
+    },
+    "140": {
+      "manual_file": "transcripts/manual/page-140.html",
+      "sha256": "ffe132fb2b4bd5ace40910d371aee5009bcfc727bab75dcaf39e63017231057c"
+    },
+    "142": {
+      "manual_file": "transcripts/manual/page-142.html",
+      "sha256": "91a6964a30513f98b03b6d24ee403e1fc92097ff482c0b764aab1788ad0cc5ef"
+    },
+    "143": {
+      "manual_file": "transcripts/manual/page-143.html",
+      "sha256": "10ac894db93f1d7128bb03195d4846664007276d682d6f44903372515654f665"
+    },
+    "144": {
+      "manual_file": "transcripts/manual/page-144.html",
+      "sha256": "679c8d1ad5a80f83aaf5767aaab8003d530e15cf77856faaf183eb795b480213"
+    },
+    "145": {
+      "manual_file": "transcripts/manual/page-145.html",
+      "sha256": "290e779b70f033b08110f64072aaf333394a30ab53094e246f0eeb844f3228d3"
+    },
+    "146": {
+      "manual_file": "transcripts/manual/page-146.html",
+      "sha256": "8ae2d84fd10f9bef78c359d2757eaf5f7adafb327e89893783d58281ac9fa5d6"
+    },
+    "147": {
+      "manual_file": "transcripts/manual/page-147.html",
+      "sha256": "0dfd945fc61698dbe27f5ce26c67b0349460192ee98659eb6c1de862ef6f3018"
+    },
+    "148": {
+      "manual_file": "transcripts/manual/page-148.html",
+      "sha256": "e2ace799e654df320d522e60525a171237a7b13ff76d404f87a10ea33fb296cd"
+    },
+    "149": {
+      "manual_file": "transcripts/manual/page-149.html",
+      "sha256": "ba5ec154f976af4b4dadd24f5b96a20581832a551ea5813cd89d63916c29e79e"
+    },
+    "150": {
+      "manual_file": "transcripts/manual/page-150.html",
+      "sha256": "d984db9494f2213e49f61924ad2300cfc396c04f3818250783e1ae1f8edb3bbd"
+    },
+    "151": {
+      "manual_file": "transcripts/manual/page-151.html",
+      "sha256": "ee5043fb2db0d3dcd52498782d68725faff8de567aeae310104f0e4a83f4ab6a"
+    },
+    "152": {
+      "manual_file": "transcripts/manual/page-152.html",
+      "sha256": "6cc8b89e5d596654d92f4859813f276bdf71a6812309d10c3fdffbb112138839"
+    },
+    "153": {
+      "manual_file": "transcripts/manual/page-153.html",
+      "sha256": "2b204f2b2074390207c1f77d0f33edeb9156b39af2b69e4220873a6f98a03021"
+    },
+    "154": {
+      "manual_file": "transcripts/manual/page-154.html",
+      "sha256": "958eeec8947ea6bb8564cac975b66656860b09ae5a97fb057789aa24f6f22d25"
+    },
+    "155": {
+      "manual_file": "transcripts/manual/page-155.html",
+      "sha256": "0c100ecded7d9860614e1f2d0c56e4b1651bad2c64b8150646fbeabd7ff56663"
+    },
+    "156": {
+      "manual_file": "transcripts/manual/page-156.html",
+      "sha256": "56cffbe986fd8b5b81b6a5659f65329906da762e8a1a016570eb8a944d340163"
+    },
+    "157": {
+      "manual_file": "transcripts/manual/page-157.html",
+      "sha256": "041a6405cdf8e0d7a72d2141b6f81f1604ec4a95232e02e3e6c4c72202bc733d"
+    },
+    "158": {
+      "manual_file": "transcripts/manual/page-158.html",
+      "sha256": "d751b0d4d983b3a3341c947904e0494ba3f375c34f0296329bce89195aff7edb"
+    },
+    "159": {
+      "manual_file": "transcripts/manual/page-159.html",
+      "sha256": "4bac5d887627db735e56c2f6e725c1ffe2ed3ae4a2b6df4ee84438d5bb1b08b0"
+    },
+    "160": {
+      "manual_file": "transcripts/manual/page-160.html",
+      "sha256": "1a6b60bf0fc6e17975f482c5a7630e7bc2e426bb2d29d7ad3c2802ed849895f2"
+    },
+    "161": {
+      "manual_file": "transcripts/manual/page-161.html",
+      "sha256": "68617fb7293fad419e1f094cb6dea5392b9d7fb7ce81d849fd89c33ec6761482"
+    },
+    "162": {
+      "manual_file": "transcripts/manual/page-162.html",
+      "sha256": "51f20ae85b82b9e3027f201f379b45296dc07ef1355823bc977367281de0f623"
+    },
+    "163": {
+      "manual_file": "transcripts/manual/page-163.html",
+      "sha256": "e46f58ba8c394971e8602891b4a60b8dbb1a2c3f8b3267e2fc326216f8fea589"
+    },
+    "164": {
+      "manual_file": "transcripts/manual/page-164.html",
+      "sha256": "c58363c88615067df9b1330170217f6c6568d3906aec3666469970d15e6d381f"
+    },
+    "165": {
+      "manual_file": "transcripts/manual/page-165.html",
+      "sha256": "89940616b9f0c2872034aaeffaf32aab03587c711227c321ec1cf000e0b1ac4c"
+    },
+    "166": {
+      "manual_file": "transcripts/manual/page-166.html",
+      "sha256": "f8a8675d2ee17542e666b168f0bf12e8d493108f41141cb8ffcc3e1d2d513d2b"
+    },
+    "167": {
+      "manual_file": "transcripts/manual/page-167.html",
+      "sha256": "a97e17837840a90f8e27be0c7a2ef329d3d3a53e85bb67c09f4a9834721127e0"
+    },
+    "168": {
+      "manual_file": "transcripts/manual/page-168.html",
+      "sha256": "4919bdeb55aae971af65da95d8e7a6424ca92738269f9c2753e18316010fb8ab"
+    },
+    "169": {
+      "manual_file": "transcripts/manual/page-169.html",
+      "sha256": "53c2257d06eb25f92cd0b40d254f0177e9f600f3c856aea3c79264539ee366e2"
+    },
+    "170": {
+      "manual_file": "transcripts/manual/page-170.html",
+      "sha256": "5217aceae256ba668d4ad13f87ec85582d859dac04a13b4dc8ab49f5ec3e4ad2"
+    },
+    "171": {
+      "manual_file": "transcripts/manual/page-171.html",
+      "sha256": "0e379436f404f044a91bb88bbd31853a3bd1eb290aad583ebc75f63d5e6a00a9"
+    },
+    "172": {
+      "manual_file": "transcripts/manual/page-172.html",
+      "sha256": "06a05a333fe7748e6445411bf10e5c6b7ab81774c23e6f182a3c8f7cc2ae2365"
+    },
+    "173": {
+      "manual_file": "transcripts/manual/page-173.html",
+      "sha256": "4b026d3181516c772b4a79a45420dc67d6d89f6f6c02b44d013d2957e0f77f18"
+    },
+    "174": {
+      "manual_file": "transcripts/manual/page-174.html",
+      "sha256": "aea1709119c41135f506d35c60035de4529a541b6b4dec1ff3d09c2d99d15553"
+    },
+    "175": {
+      "manual_file": "transcripts/manual/page-175.html",
+      "sha256": "c3355a657315b38743136d13fd8da4f5e72f6de826bea66dd25196a7d832a9f9"
+    },
+    "176": {
+      "manual_file": "transcripts/manual/page-176.html",
+      "sha256": "28f5ad07d0a72e94a9c6a5226e69d495db1013ff90e9a82e697dfa0577954278"
+    },
+    "177": {
+      "manual_file": "transcripts/manual/page-177.html",
+      "sha256": "ed1bb8a418909fd0713dd53b102e54709950def205123ad43e407a1b7bfe9805"
+    },
+    "178": {
+      "manual_file": "transcripts/manual/page-178.html",
+      "sha256": "2c55a76c7ccefa22db2091c5bbe9054cb52cc52900777f2c362cd5541d132986"
+    },
+    "179": {
+      "manual_file": "transcripts/manual/page-179.html",
+      "sha256": "902b9b6968a9965bad6bcb0342aa359bf1026e069eccb16011d665da668ab358"
+    },
+    "180": {
+      "manual_file": "transcripts/manual/page-180.html",
+      "sha256": "66b9706a3c633d7d6079fe7e1d4f1276c24bedfe0bb289b705e3b03dd58aa401"
+    },
+    "181": {
+      "manual_file": "transcripts/manual/page-181.html",
+      "sha256": "da94791126f6a6cf7ec9029b8631717d02e7f5a3e6f59af8fec035964da3f7b0"
+    },
+    "182": {
+      "manual_file": "transcripts/manual/page-182.html",
+      "sha256": "032260ec4e9dc28b396544182e17ed60ab2916510ada9bcabb8369a603ad8a1f"
+    },
+    "183": {
+      "manual_file": "transcripts/manual/page-183.html",
+      "sha256": "da345c204b6b7b81a2c302166ff8fa4b4c24c644880adc6cabef055abb0c3acf"
+    },
+    "184": {
+      "manual_file": "transcripts/manual/page-184.html",
+      "sha256": "aceb6d2934404fb65870f2cd4bee181f696a3a207f72630d2d297fd9bd5149a6"
+    },
+    "186": {
+      "manual_file": "transcripts/manual/page-186.html",
+      "sha256": "40f5b47eb6b71f9999273a93d63974e6697c28a305e28a5d88bc6a0452139eab"
+    },
+    "187": {
+      "manual_file": "transcripts/manual/page-187.html",
+      "sha256": "bf4410469008af60815a270c51d9ddf1372384987252091a2671464f558dc95b"
+    },
+    "188": {
+      "manual_file": "transcripts/manual/page-188.html",
+      "sha256": "e5c2182f0ec77a7c27497b97e3977d2573e9b61cb06e5323ed1db45a1e89009e"
+    },
+    "189": {
+      "manual_file": "transcripts/manual/page-189.html",
+      "sha256": "6d8b2e0dc30b2bdb550c5e57bd949b6c73bf900dfe7e9fb3d0989b99a6b1ed62"
+    },
+    "190": {
+      "manual_file": "transcripts/manual/page-190.html",
+      "sha256": "cfca2ea8ab5beca1ffcc53bd288aff9baf09e83349bbbcea2f0bd667a6da4bc0"
+    },
+    "191": {
+      "manual_file": "transcripts/manual/page-191.html",
+      "sha256": "f85a1abf9cd1805756531e5ab3640ab60c69a24e576433f6a3271fafd360174e"
+    },
+    "192": {
+      "manual_file": "transcripts/manual/page-192.html",
+      "sha256": "b7da767263db76769359574ebf237843fc1ac0a724c2fefe47e998c955c97714"
+    },
+    "193": {
+      "manual_file": "transcripts/manual/page-193.html",
+      "sha256": "d1d2e2cf5b8f8ffee2119cf98d6e30e8f0863f831ab4a85fe2f644ae8d39faa2"
+    },
+    "194": {
+      "manual_file": "transcripts/manual/page-194.html",
+      "sha256": "e3eeed5f91f919bcc1dc5cd9c0562fa0053b7d66460cfbeccd9131da97fd89c5"
+    },
+    "195": {
+      "manual_file": "transcripts/manual/page-195.html",
+      "sha256": "ca231f44148320217c4ca34e320cb886e8ca1d268f6d1ade6fdc17e282de5334"
+    },
+    "196": {
+      "manual_file": "transcripts/manual/page-196.html",
+      "sha256": "53dda2ed059759b493708d9aae35deea522a694087a7d01b01013d932626029b"
+    },
+    "197": {
+      "manual_file": "transcripts/manual/page-197.html",
+      "sha256": "14d88cb5ee66ea22674004b30f8195499813031b960ebbd6316b6272d0a591d3"
+    },
+    "198": {
+      "manual_file": "transcripts/manual/page-198.html",
+      "sha256": "e67e2b53d5377ccc8ba2b384093c22155975e70eed1751f2619d2d0ea5a9826c"
+    },
+    "199": {
+      "manual_file": "transcripts/manual/page-199.html",
+      "sha256": "077449be580ede386adbf7b57601c544551d9123acb34f675acfe6abdc2f856b"
+    },
+    "200": {
+      "manual_file": "transcripts/manual/page-200.html",
+      "sha256": "95071b421cd78a8861d2e38f20eda0df5a6d51a60d7cad46271ecf3dc2e95832"
+    },
+    "201": {
+      "manual_file": "transcripts/manual/page-201.html",
+      "sha256": "d305aca951a45827c8bde32094d8eb99c32c7eafa62b1357f1fd91b47b360246"
+    },
+    "202": {
+      "manual_file": "transcripts/manual/page-202.html",
+      "sha256": "f2a68212b7cfaa8954e84382749dc2dea3e7cead88e1b6095e79f1e593787ab3"
+    },
+    "203": {
+      "manual_file": "transcripts/manual/page-203.html",
+      "sha256": "7651262765b9b2238c708c3684aafc51cba09bc83e3ca82b30661b7ccfc70d93"
+    },
+    "204": {
+      "manual_file": "transcripts/manual/page-204.html",
+      "sha256": "3759ac14cc1fe44defc020cb7a57c6b604667bf35d3f714982cb3bdea156df66"
+    },
+    "205": {
+      "manual_file": "transcripts/manual/page-205.html",
+      "sha256": "0f6918fce8c7e5e0ac7ca56a4ca96e2560e470d853773cba8173e990855d612c"
+    },
+    "206": {
+      "manual_file": "transcripts/manual/page-206.html",
+      "sha256": "7ed01a74e6e7d58d4ad042102a271fc5097e1cc8a4bcbd5f191acf6d3ed442cc"
+    },
+    "207": {
+      "manual_file": "transcripts/manual/page-207.html",
+      "sha256": "0653e816aa58993b00b74e1355159b65fd6ddea585200525fabd6e0590001eb4"
+    },
+    "208": {
+      "manual_file": "transcripts/manual/page-208.html",
+      "sha256": "14a12906a0a165b258c1c0348a3bb9987f6a80312a4a327c62517598b27036c2"
+    },
+    "209": {
+      "manual_file": "transcripts/manual/page-209.html",
+      "sha256": "9b482669ebbacff75f6ed5450683924ba302e719947e5e3081eeef48da5cf175"
+    },
+    "210": {
+      "manual_file": "transcripts/manual/page-210.html",
+      "sha256": "a97135fff25e603e7074fd62a6c41d4be0afafcee0877f6727af99c953a3c304"
+    },
+    "211": {
+      "manual_file": "transcripts/manual/page-211.html",
+      "sha256": "309bb6ebf5cb98e70e458f014916f1e0bcf79bbe5aac1a018b2b3d1bdbc90dbb"
+    },
+    "212": {
+      "manual_file": "transcripts/manual/page-212.html",
+      "sha256": "ca056a3807f95830a94b5514496254790fbbaa230091c3644cf3a730e9b8b62d"
+    },
+    "213": {
+      "manual_file": "transcripts/manual/page-213.html",
+      "sha256": "48184d63876a1fa3742ac19ebfdffca1cda25bc3293005e9c47cdaefeaaf6e47"
+    },
+    "214": {
+      "manual_file": "transcripts/manual/page-214.html",
+      "sha256": "4936ac166d536291f2011d11c9090650f0dfda3a1315e95581b6b27f969ed1c8"
+    },
+    "216": {
+      "manual_file": "transcripts/manual/page-216.html",
+      "sha256": "aaf3eb3d0e213e0c93e541de4f075187b8d2e3e56add4c6ba87016e690474ac5"
+    },
+    "217": {
+      "manual_file": "transcripts/manual/page-217.html",
+      "sha256": "09dae1e88515c63a397b522cc98b5b36928235991f3de621ff2f585944899105"
+    },
+    "218": {
+      "manual_file": "transcripts/manual/page-218.html",
+      "sha256": "7478235f008781308eb3678bf40aca492428ebf70cb09e143442464563d5bab6"
+    },
+    "219": {
+      "manual_file": "transcripts/manual/page-219.html",
+      "sha256": "dbe93e1763634a4f164246f042f6eb300149e14e23d4450bf95907f8b3e12557"
+    },
+    "220": {
+      "manual_file": "transcripts/manual/page-220.html",
+      "sha256": "c13275133ada2fa1d830ce8fa644445d036a27f1493fdb9efb1a4e9756c96b6a"
+    },
+    "221": {
+      "manual_file": "transcripts/manual/page-221.html",
+      "sha256": "f56f1952006f3fac23d79e659fcda3e2ad07e6dfbf0ccd96b3b5a18bfa734cad"
+    },
+    "222": {
+      "manual_file": "transcripts/manual/page-222.html",
+      "sha256": "5d8752ae5cb48d56fca7e2dc3edf076b49b5945afc587bc419be4ba9ad4b8090"
+    },
+    "223": {
+      "manual_file": "transcripts/manual/page-223.html",
+      "sha256": "859ead52f2c49a843427f83ff9c1d168d44ff15d631a3c04480c5f12b875d213"
+    },
+    "224": {
+      "manual_file": "transcripts/manual/page-224.html",
+      "sha256": "b0e37fca367da7d00efbd7179a171eca5d46a92f093bd007993f14d0d37afe9b"
+    },
+    "225": {
+      "manual_file": "transcripts/manual/page-225.html",
+      "sha256": "3c856775429adae665a9ba43eccdfaf85b0e6962bd6bb76fc0b3387546a26759"
+    },
+    "226": {
+      "manual_file": "transcripts/manual/page-226.html",
+      "sha256": "c7d4a0a53342ffdcd5495edbfcec12501053c863bcf0c2216b284fb1ad262dbb"
+    },
+    "227": {
+      "manual_file": "transcripts/manual/page-227.html",
+      "sha256": "f821c976201ceb65d8534ad59c55fbce565252298ff94e062dd7d63b82465010"
+    },
+    "228": {
+      "manual_file": "transcripts/manual/page-228.html",
+      "sha256": "f88d7ac3cc8cd0c013ced5c80d7fd3e2e54a45d8d86f8a32b2ac5d5cfdded07e"
+    },
+    "229": {
+      "manual_file": "transcripts/manual/page-229.html",
+      "sha256": "1187ac8fabd61feedd6d2f07a0531f8dab307f046b1ccfc95cfb1463db584142"
+    },
+    "230": {
+      "manual_file": "transcripts/manual/page-230.html",
+      "sha256": "05c2b87bd2ff28c1b867d8d71ffb7cb6d522f96f38d08b22e1230127d70a412b"
+    },
+    "231": {
+      "manual_file": "transcripts/manual/page-231.html",
+      "sha256": "83c9cbd1fe68c573d1c3b71938ccb8c080d79389891838c0059428dfed150736"
+    },
+    "232": {
+      "manual_file": "transcripts/manual/page-232.html",
+      "sha256": "06ac28a9e2bd34a6f05a3e8a46f31be0d7ba42e160ec84fc2c5ad832dc5765d1"
+    },
+    "233": {
+      "manual_file": "transcripts/manual/page-233.html",
+      "sha256": "320186261760690ed5aeb45b71481b2ed9c9381fff24a87b8f9135ec7b7b43e0"
+    },
+    "234": {
+      "manual_file": "transcripts/manual/page-234.html",
+      "sha256": "2b161d9222edccb539bbc0b6752ffc3e076b7201d3dfe3246596bb122136fd6a"
+    },
+    "235": {
+      "manual_file": "transcripts/manual/page-235.html",
+      "sha256": "86a7f253de6c9456fbde389ff365f932ae171b0af491ef26ca9159ba2e8bda9d"
+    },
+    "236": {
+      "manual_file": "transcripts/manual/page-236.html",
+      "sha256": "54cbedd1c3f191c8ee64716f52485e2f60f7de2d10b5c62ba46504bb578e8666"
+    },
+    "237": {
+      "manual_file": "transcripts/manual/page-237.html",
+      "sha256": "b5ef022eb191ba496676effb34f71b771261a33d222dc28c19201697cc9b51d6"
+    },
+    "238": {
+      "manual_file": "transcripts/manual/page-238.html",
+      "sha256": "84f2e2e65f63928f5b6fb5a82968410b39d1e1c339ffe578cb17c3a1b19bc0c5"
+    },
+    "239": {
+      "manual_file": "transcripts/manual/page-239.html",
+      "sha256": "5725677a306e24b515f38617a93b366eebbc2b0648262c50478ad17b809515dd"
+    },
+    "240": {
+      "manual_file": "transcripts/manual/page-240.html",
+      "sha256": "040b572923c29245c8b492e913c65dbb3901f51cb869b7b53cc65b606f5ee049"
+    },
+    "241": {
+      "manual_file": "transcripts/manual/page-241.html",
+      "sha256": "67546bc65765b12f87eab9fefe9ae24bf934f22fa50448972d98aa41bf2d560a"
+    },
+    "242": {
+      "manual_file": "transcripts/manual/page-242.html",
+      "sha256": "fdfbc66b7c154490388c0ce8ab08802dfddc091e3d913d5f262ea854eef59f75"
+    },
+    "243": {
+      "manual_file": "transcripts/manual/page-243.html",
+      "sha256": "dfe3feb2fc1924ac1fe7f1584f221d303fbb25a0172cd77ab2280e040dca5dec"
+    },
+    "244": {
+      "manual_file": "transcripts/manual/page-244.html",
+      "sha256": "19ee61124e6cb14f6ab97132eff59293299745134d0bab62384f9c93bc993519"
+    },
+    "245": {
+      "manual_file": "transcripts/manual/page-245.html",
+      "sha256": "9b36ccdc38aafb7caa58495eba28be524bb8d6be7b51bab10277ef96d6300b32"
+    },
+    "246": {
+      "manual_file": "transcripts/manual/page-246.html",
+      "sha256": "bf5568b98479464b8304ece236dad238118746dba65b20d0c7c1554c2b892da4"
+    },
+    "247": {
+      "manual_file": "transcripts/manual/page-247.html",
+      "sha256": "291f516969f1e1c6d9b027030f0df6b6174aac58c6cad66d5d7b5703b734cfc0"
+    },
+    "248": {
+      "manual_file": "transcripts/manual/page-248.html",
+      "sha256": "251902cf87833d683e3f348ab4a6c3e786c093f4e15b0254faa88c78e6661e85"
+    },
+    "249": {
+      "manual_file": "transcripts/manual/page-249.html",
+      "sha256": "1af0bbdb13b558da2057c3019c414353ca70254e429020d4ef7b86821cff9939"
+    },
+    "250": {
+      "manual_file": "transcripts/manual/page-250.html",
+      "sha256": "2243780b9376472adf59ba8d721ce718a1b3b0989fbad8b9ec08b41c5bfc47b9"
+    },
+    "251": {
+      "manual_file": "transcripts/manual/page-251.html",
+      "sha256": "7b6063779fe8b84c08eb7beda549f3f685809d0f29224b912def61096f94e1bc"
+    },
+    "252": {
+      "manual_file": "transcripts/manual/page-252.html",
+      "sha256": "f8e2f1588af82ae0d86dad017196e67ddbe405b3b2b7b469a8e2b4f79f26b83c"
+    },
+    "253": {
+      "manual_file": "transcripts/manual/page-253.html",
+      "sha256": "cdd01a4137eb9d707e2cd5e7c1bbb8531fd12563093a02d8e5a407387b479bff"
+    },
+    "254": {
+      "manual_file": "transcripts/manual/page-254.html",
+      "sha256": "9c8aefd59ad890c27b92b8cfc153a092c34568f2f987b78cf93b102a93beb0b8"
+    },
+    "256": {
+      "manual_file": "transcripts/manual/page-256.html",
+      "sha256": "f254a732c984a0166312c93386ce8a5cc4b8240b2885830dc473e1338add4f6f"
+    },
+    "257": {
+      "manual_file": "transcripts/manual/page-257.html",
+      "sha256": "0129fd2e23cf612037dbd599fb087451fa97cf5c8e2c91744d4a58e4cd0247a4"
+    },
+    "258": {
+      "manual_file": "transcripts/manual/page-258.html",
+      "sha256": "a18ac14fdb8ff7342a19c833be57dac9e20f24e402cd9a680f9432420380f773"
+    },
+    "260": {
+      "manual_file": "transcripts/manual/page-260.html",
+      "sha256": "4b4eb06b2271ae68d290f07c0ee42805a715892d0886d09eae16d5524b718cd6"
+    },
+    "261": {
+      "manual_file": "transcripts/manual/page-261.html",
+      "sha256": "443f5c086cebe0bb4e92b1e39600308c23bc28348d4e8d7c147e3a6934e08956"
+    },
+    "262": {
+      "manual_file": "transcripts/manual/page-262.html",
+      "sha256": "8d829bd098eacfd694acad617d897abd1f97bef908425064e83af7ccf5d33df2"
+    },
+    "263": {
+      "manual_file": "transcripts/manual/page-263.html",
+      "sha256": "40ea1c1730678c3e724a5cf5d07b8dbd2c3dc9266e87f995fffc5592a7a38981"
+    },
+    "264": {
+      "manual_file": "transcripts/manual/page-264.html",
+      "sha256": "ab3b63220ed95df1e75105b6bc5f06a899371b2102cb5ee3bf0ee701dc8ab26b"
+    },
+    "265": {
+      "manual_file": "transcripts/manual/page-265.html",
+      "sha256": "8426ee27ad57d446c0b7b6d141fce8764bc529416ff5cd1d57044f8b4147e5e0"
+    },
+    "266": {
+      "manual_file": "transcripts/manual/page-266.html",
+      "sha256": "eecb0ff7e689ce668e22519dafc4cf336b7416a1160b4a967799b925ac12378c"
+    },
+    "267": {
+      "manual_file": "transcripts/manual/page-267.html",
+      "sha256": "3e94453f267093fea06d3bde73fad24985c283d7e7bd6f963dfdda44ebfd6f48"
+    },
+    "268": {
+      "manual_file": "transcripts/manual/page-268.html",
+      "sha256": "9ad17d438975bd3a16fcf725984ef33aec642aceefd102e237641cd8de7c4b43"
+    },
+    "269": {
+      "manual_file": "transcripts/manual/page-269.html",
+      "sha256": "7d954b8dd5c064e41b68a0430bfe00ee7d51002eb7cdce55e899a9cc8d89de21"
+    },
+    "270": {
+      "manual_file": "transcripts/manual/page-270.html",
+      "sha256": "5e4b0d93022439e9c72e56342c1d828590166aec32d11a9e826bbf30909628f9"
+    },
+    "271": {
+      "manual_file": "transcripts/manual/page-271.html",
+      "sha256": "485450b0ec7de4a30a17256fd3ea269bb213e496c0da93bea3fdaf6055bec882"
+    },
+    "272": {
+      "manual_file": "transcripts/manual/page-272.html",
+      "sha256": "b8498dcc99d0755786cefe350960faa39ec7b7bff3e9cab0ca02379a2dee38f1"
+    },
+    "273": {
+      "manual_file": "transcripts/manual/page-273.html",
+      "sha256": "d032a82d7c657ac983dfd52ba1126d03488565b4e02559e4f679d3c3f77a505d"
+    },
+    "274": {
+      "manual_file": "transcripts/manual/page-274.html",
+      "sha256": "5e7d50c741fee471ff1cfc4c6466fe3060c9d246ed2308fffbd9897dc129d834"
+    },
+    "275": {
+      "manual_file": "transcripts/manual/page-275.html",
+      "sha256": "9c58af750cc8046eeb2e44e85a3bbed411befd2bab95ae8fdcf42fcff53f36f6"
+    },
+    "276": {
+      "manual_file": "transcripts/manual/page-276.html",
+      "sha256": "6f9c93e6fc71a968c94836eddbc1e8378a32a08427cc16272fa766eb70de8e15"
+    },
+    "277": {
+      "manual_file": "transcripts/manual/page-277.html",
+      "sha256": "8779daf3b61cbc5cfae43cba1be40d6f373434bed312b97dfe86ca6991bc51bf"
+    },
+    "278": {
+      "manual_file": "transcripts/manual/page-278.html",
+      "sha256": "304b6721b929d3fac1c090d928e7687a18ea875359cc9bd80e9176635d6189ef"
+    },
+    "279": {
+      "manual_file": "transcripts/manual/page-279.html",
+      "sha256": "44d4f6ee90987b067e6b681459d6d8244b224b5d7073ecc4e5d44f96738b1fd6"
+    },
+    "280": {
+      "manual_file": "transcripts/manual/page-280.html",
+      "sha256": "ecb789845b060c1200e6a35e343463a29b247f72b43425306c6dfd6fa7dc4c56"
+    },
+    "281": {
+      "manual_file": "transcripts/manual/page-281.html",
+      "sha256": "4610a77f69d9e0f8b9b291451192efa00245bc3b10d5677b37d8a198e578923a"
+    },
+    "282": {
+      "manual_file": "transcripts/manual/page-282.html",
+      "sha256": "829aa2b8b50bdf83822327f6ee29bc8a3bbc56b965444b605b8d38c1917be157"
+    },
+    "283": {
+      "manual_file": "transcripts/manual/page-283.html",
+      "sha256": "dbb7ed4d7ccd6df510447f6326dd8fb35cf29419e85bed717e39a6fbab9245a3"
+    },
+    "284": {
+      "manual_file": "transcripts/manual/page-284.html",
+      "sha256": "b39678239917d33f205df48264f9a4903a7c8edaab871f506df1263edb2bd25d"
+    },
+    "285": {
+      "manual_file": "transcripts/manual/page-285.html",
+      "sha256": "1b776def1a1093ff22b063409f1b4101d9a8330d1ef100aab61032448ba0bb25"
+    },
+    "286": {
+      "manual_file": "transcripts/manual/page-286.html",
+      "sha256": "07f54174d168ccb9dfed0b52865cc496533e17db36f8918083def1d414d1764c"
+    },
+    "287": {
+      "manual_file": "transcripts/manual/page-287.html",
+      "sha256": "29ec895981efa63f5055003bccf6fb521eef098b980e6b39929566957b077a18"
+    },
+    "288": {
+      "manual_file": "transcripts/manual/page-288.html",
+      "sha256": "294988bddc5b92cecea0ac5e1b81caaa031a85d838a18f7f3cc9e1dee27170ee"
+    },
+    "290": {
+      "manual_file": "transcripts/manual/page-290.html",
+      "sha256": "064ca29fac1d64d1728803259bf9c0efea2a6d52f3536e9b1e40c834d7f5cd46"
+    },
+    "291": {
+      "manual_file": "transcripts/manual/page-291.html",
+      "sha256": "eb9558e11aff340ac736c12bfde7515df89e7089a8879d3ec136850cbb6eba10"
+    },
+    "292": {
+      "manual_file": "transcripts/manual/page-292.html",
+      "sha256": "878d373976c7a1506d6f9bafdead65e7ffea615842f7aab89dedcffb88829d11"
+    },
+    "293": {
+      "manual_file": "transcripts/manual/page-293.html",
+      "sha256": "fde8bf98ab99dc3edd5c02d6636a8e06d71f7a4e39d371fa0fb404bb19941e4c"
+    },
+    "294": {
+      "manual_file": "transcripts/manual/page-294.html",
+      "sha256": "e4458030ce57476452ffc007e2ecd8b3c2b8cc55e6e346b25936f3ea2e772f1a"
+    },
+    "295": {
+      "manual_file": "transcripts/manual/page-295.html",
+      "sha256": "6cd68211a1104a696c3d753fe615526be065db5df5cc6a504da163506d5bab98"
+    },
+    "296": {
+      "manual_file": "transcripts/manual/page-296.html",
+      "sha256": "ade1af00e334638f76ecc0fcb71426f015968a6a2fe28c43f0a64a9c320525bb"
+    },
+    "297": {
+      "manual_file": "transcripts/manual/page-297.html",
+      "sha256": "f077e17c69b2d98fad6ca644c3c6416084922c0c4d4c939ceda41d86b9044ba1"
+    },
+    "298": {
+      "manual_file": "transcripts/manual/page-298.html",
+      "sha256": "ec730a0f9b11c067ad35b6565fe889053717b1d381fedc2eca90c1855df4e8f5"
+    },
+    "299": {
+      "manual_file": "transcripts/manual/page-299.html",
+      "sha256": "9ad43358bc01f86e13ba3e691064af45c4249c10e0391a25fabf3429b51e2cda"
+    },
+    "300": {
+      "manual_file": "transcripts/manual/page-300.html",
+      "sha256": "5d1ecbaaff377d74e98dad00849f094dbe7fd7b1ff630485350c342aff6accd1"
+    },
+    "301": {
+      "manual_file": "transcripts/manual/page-301.html",
+      "sha256": "d238d763aafcd721d523e653f5cad7acaf8d72047edca68c0667903d8818ce7d"
+    },
+    "302": {
+      "manual_file": "transcripts/manual/page-302.html",
+      "sha256": "31e21d76f516a063dc82a41b9864932ac4d972ef91cd1f089f5f075ff0e5ae9c"
+    },
+    "303": {
+      "manual_file": "transcripts/manual/page-303.html",
+      "sha256": "d24d1817f86fca196df38f5e2eea46f9e2b027863b80fdf6eede6d58ce8c60ca"
+    },
+    "304": {
+      "manual_file": "transcripts/manual/page-304.html",
+      "sha256": "c858b5d9f3068900b280b6957841b2caeb621683c00b0d3b1fadfc661c704f91"
+    },
+    "305": {
+      "manual_file": "transcripts/manual/page-305.html",
+      "sha256": "5105f920eae2f2bb175fe8f0254c9e3fdec4827f20c5613b148d0dc2d91ce504"
+    },
+    "306": {
+      "manual_file": "transcripts/manual/page-306.html",
+      "sha256": "689d3c3056f0bb9f9ac2e7a3539b45df62a9f22bcf4d669b2fe4b72b9831e0cc"
+    },
+    "307": {
+      "manual_file": "transcripts/manual/page-307.html",
+      "sha256": "671e9be26f739b7570b16488233b59f44b56030f1e95f381a4c2b90d83ecd0c9"
+    },
+    "308": {
+      "manual_file": "transcripts/manual/page-308.html",
+      "sha256": "23d6b19515e70691d0a0ac8cd68982dc042a5fb5a0cc56f9492a209aa9af97f4"
+    },
+    "309": {
+      "manual_file": "transcripts/manual/page-309.html",
+      "sha256": "0ed3718b74b26ada81cb382569293add05c1e7f4206f03228fa4992e06cc796b"
+    },
+    "310": {
+      "manual_file": "transcripts/manual/page-310.html",
+      "sha256": "6a0b88c0ff95efecedf0ae09ad8c82e3a572b6383cb293113e2589b013b21a13"
+    },
+    "311": {
+      "manual_file": "transcripts/manual/page-311.html",
+      "sha256": "34a679c4bda447318caf5844a050c25eca3e963ccc0cfb7d4085c4c3f670633a"
+    },
+    "312": {
+      "manual_file": "transcripts/manual/page-312.html",
+      "sha256": "8eda03fd3ae58f054d2f27e1f0df7d40c1a21a50822dec8e214f2b6a56484766"
+    },
+    "313": {
+      "manual_file": "transcripts/manual/page-313.html",
+      "sha256": "385ab9905b5459be099afa57a3b3947220f43614519e98b1ebc6ae9033a0cd7d"
+    },
+    "314": {
+      "manual_file": "transcripts/manual/page-314.html",
+      "sha256": "02a17be377cf4d13590aaed6302ed5c824401025ecea492952e59200bf05e56b"
+    },
+    "315": {
+      "manual_file": "transcripts/manual/page-315.html",
+      "sha256": "f187c0c78c68ea5c0b8ea541630737377a9832028502e024fe7052782c4d7c58"
+    },
+    "316": {
+      "manual_file": "transcripts/manual/page-316.html",
+      "sha256": "c31953f9ac21c4e49ea1c22ddec2c2cacd42c70ce046ce377ccc747726103d3a"
+    },
+    "317": {
+      "manual_file": "transcripts/manual/page-317.html",
+      "sha256": "89a7203dbb474c71ca54d557b3a0da14e622b96b0627f7b9383d25fb3258bfa8"
+    },
+    "318": {
+      "manual_file": "transcripts/manual/page-318.html",
+      "sha256": "b855a059d52daca5a191fed06d326cf03200cbb7f4f1744141ecb8f8786ef719"
+    },
+    "319": {
+      "manual_file": "transcripts/manual/page-319.html",
+      "sha256": "9a218ee3c1e3c329c1c98b5f374867d61603e4472c05362afd7d327173aacfa3"
+    },
+    "320": {
+      "manual_file": "transcripts/manual/page-320.html",
+      "sha256": "28b7436ae2235b77c881bfcda7471349cf53194b31968786d85888b4339e6632"
+    },
+    "321": {
+      "manual_file": "transcripts/manual/page-321.html",
+      "sha256": "93961a54e470c494fccc4f043a84c934821a55cb158fb98a05e0a24c2d153cae"
+    },
+    "322": {
+      "manual_file": "transcripts/manual/page-322.html",
+      "sha256": "6febaf15a8ab74f469a35b924e18f20b1dd912800ced4e62efe3b4e711d2602a"
+    },
+    "323": {
+      "manual_file": "transcripts/manual/page-323.html",
+      "sha256": "a3abe403c41bcda651c80d5dc98abbcab3fce6b415e3dd1e855cb4478cd0b65c"
+    },
+    "324": {
+      "manual_file": "transcripts/manual/page-324.html",
+      "sha256": "a3390b16dd021dfbfeb666153f52f093cbf612d74c8164304a571d9e78c219ad"
+    },
+    "325": {
+      "manual_file": "transcripts/manual/page-325.html",
+      "sha256": "928c5e2ed27627f5ccaac74f91f9ccae9dda52c3e9a7fdb2d610977e97466fef"
+    },
+    "326": {
+      "manual_file": "transcripts/manual/page-326.html",
+      "sha256": "7c9348fe7a2e39ed8c815aab023aa8421cf387df381d28488b486b8b5087b5b8"
+    },
+    "327": {
+      "manual_file": "transcripts/manual/page-327.html",
+      "sha256": "0bad0a738c32ff3511f04a0f515778010da3aa0ae82cfe078f535f26c3fb6c9f"
+    },
+    "328": {
+      "manual_file": "transcripts/manual/page-328.html",
+      "sha256": "b8884850702d6893013351f814390529a4951d4d1fdd1cb950788ddd95053741"
+    },
+    "329": {
+      "manual_file": "transcripts/manual/page-329.html",
+      "sha256": "601c7e812d8f675917e1b0c58b97a94db6c903c30a98e061f63947f3b582eb9b"
+    },
+    "330": {
+      "manual_file": "transcripts/manual/page-330.html",
+      "sha256": "33f352a56f8abdf5647b7472632e0f1d985f38b9bd08d48b3439d8b105786dd0"
+    },
+    "331": {
+      "manual_file": "transcripts/manual/page-331.html",
+      "sha256": "c94d112629f373347a39ee1f4b2ddcfa069a2ee7ccd14eb426db072a85f62b29"
+    },
+    "332": {
+      "manual_file": "transcripts/manual/page-332.html",
+      "sha256": "2546060c64bcb18ac125f12944f128214da100b26aaa3ebcdaa2a2d50053df32"
+    },
+    "334": {
+      "manual_file": "transcripts/manual/page-334.html",
+      "sha256": "1247fa937b3f5a2460af483115c3d4a67200c57ea0b2cbb24e0cc330dd4d043f"
+    },
+    "335": {
+      "manual_file": "transcripts/manual/page-335.html",
+      "sha256": "e192196e4c36ce3fdecaf75bbe64220ac0004b2b2f35c54da1a85054465506c8"
+    },
+    "336": {
+      "manual_file": "transcripts/manual/page-336.html",
+      "sha256": "9d71664bd0e68ac0c8b7168f9dd92a345da6c9ce2c76705f6183d460ceec0ecb"
+    },
+    "338": {
+      "manual_file": "transcripts/manual/page-338.html",
+      "sha256": "9fe0fff17322f267fa3d4f0ccfab33897e00d80b7c40487c80605cf8d4c7e175"
+    },
+    "339": {
+      "manual_file": "transcripts/manual/page-339.html",
+      "sha256": "419e6ca6ce3292f6caff7dbdf96774f79b85ef8fc73af777ed3c9274b6e942e4"
+    },
+    "340": {
+      "manual_file": "transcripts/manual/page-340.html",
+      "sha256": "18928c17e9703850b455265fb03b0e4aa2d8abecba87dfd5067f63d343836735"
+    },
+    "341": {
+      "manual_file": "transcripts/manual/page-341.html",
+      "sha256": "ede49bc8855bdad28e99f3c4727445ccae101e9934f2caf6581c4f59be696c1b"
+    },
+    "342": {
+      "manual_file": "transcripts/manual/page-342.html",
+      "sha256": "4f40d50da57437c84205ef58e85e9a695e3bafe5e2aca3de2b7d2c43b115afe2"
+    },
+    "343": {
+      "manual_file": "transcripts/manual/page-343.html",
+      "sha256": "eb4907f36ea5dbf2d31fb7f42b15d88c0a003b6078792c3814cee1e7fe71f21f"
+    },
+    "344": {
+      "manual_file": "transcripts/manual/page-344.html",
+      "sha256": "dab48d7d879dfa2dc6eccfa1c4233fadaa79169fb17b7702d2493e0260b39355"
+    },
+    "345": {
+      "manual_file": "transcripts/manual/page-345.html",
+      "sha256": "65db1b0e2850ca716c3c8b38ec0ccd6b7d4609871dfe8a378e631c6130434fde"
+    },
+    "346": {
+      "manual_file": "transcripts/manual/page-346.html",
+      "sha256": "603b9d7dfac52a817b1f4a322c4f82cda963c3998825e707e5cd0cac915544b8"
+    },
+    "347": {
+      "manual_file": "transcripts/manual/page-347.html",
+      "sha256": "a8deb0c0b921cb6c4fbd483d950a110fc55bd4b10291f328a4edfacb18629023"
+    },
+    "348": {
+      "manual_file": "transcripts/manual/page-348.html",
+      "sha256": "6ece0a854f5e0e8a867fad575b8813acc4fc1dbe7be6fe4f79f391700301364e"
+    },
+    "349": {
+      "manual_file": "transcripts/manual/page-349.html",
+      "sha256": "d5cbeef1ee80cd20fe301122bf099a835353a07e32b5ed6a1c879fc50f54ce9c"
+    },
+    "350": {
+      "manual_file": "transcripts/manual/page-350.html",
+      "sha256": "75e85c6564b9a8815e8cc99a79caa119abca3d43f9ef60ec50ba5e2fe47748fd"
+    },
+    "351": {
+      "manual_file": "transcripts/manual/page-351.html",
+      "sha256": "08d8fdeb09335ddc7da5f6d20a5acc76feeb181bdd7e30d0199d2f6ccf643e94"
+    },
+    "352": {
+      "manual_file": "transcripts/manual/page-352.html",
+      "sha256": "0009e6b69c2017baff1f375481b37c5f6517b39f8b4d7454b8e00782188daab6"
+    },
+    "353": {
+      "manual_file": "transcripts/manual/page-353.html",
+      "sha256": "a5e402f1f7eae518e8b06d3ed2b7318296c012101b05f65c0ed55b4991ddd068"
+    },
+    "354": {
+      "manual_file": "transcripts/manual/page-354.html",
+      "sha256": "92ce13d988f585c3ce131a62d909d9170722344a30de89ba54bd6026ef1f89b0"
+    },
+    "355": {
+      "manual_file": "transcripts/manual/page-355.html",
+      "sha256": "5e4a42ec135688a268e0d7b8ee247a0e48c280f7d335a180acda0d17391e3ad4"
+    },
+    "356": {
+      "manual_file": "transcripts/manual/page-356.html",
+      "sha256": "ce335f3c802eb5eb862148a0c1c48980baeb0320732303675e46f864eb25a9ce"
+    },
+    "357": {
+      "manual_file": "transcripts/manual/page-357.html",
+      "sha256": "207b3cbfef8ab9bbd7691f6cfafb8a33431376b55e9b05f943c4bc5715042e81"
+    },
+    "358": {
+      "manual_file": "transcripts/manual/page-358.html",
+      "sha256": "483ffc5b36c7b2a4c79a0fe90f0c12142a20685c22ca1ed9013fa14971bc1af1"
+    },
+    "359": {
+      "manual_file": "transcripts/manual/page-359.html",
+      "sha256": "ef3b567c2ed71806698f3f34089b74838b72e57cde05d04c6b7d181246f816f1"
+    },
+    "360": {
+      "manual_file": "transcripts/manual/page-360.html",
+      "sha256": "ceab4c1a5d952533e19b885675b6cc31cb82d1bb29642ab71907afb8e851a72e"
+    },
+    "361": {
+      "manual_file": "transcripts/manual/page-361.html",
+      "sha256": "c565cdb692777b58577a865070bf5c6c65a9004a1bf568997c7818d414747f09"
+    },
+    "362": {
+      "manual_file": "transcripts/manual/page-362.html",
+      "sha256": "88d487e3f6d80aea28728c9c8b6af394137ec207c725f2e18b8dda00e1130587"
+    },
+    "363": {
+      "manual_file": "transcripts/manual/page-363.html",
+      "sha256": "dce81ee096fa1951bb9b931717c36ab8631efdc971aeef39a0573738b22f5650"
+    },
+    "364": {
+      "manual_file": "transcripts/manual/page-364.html",
+      "sha256": "d3d89e8c408c99213e6bf3565dbd286fcb73a1797a1f6947712d3f2a41947879"
+    },
+    "365": {
+      "manual_file": "transcripts/manual/page-365.html",
+      "sha256": "a05fdac9cdb0487e187d5c39759cb3f1466f8d28be4349d7a3922cfb30c21230"
+    },
+    "366": {
+      "manual_file": "transcripts/manual/page-366.html",
+      "sha256": "7c9476492fee28c6ca94a12750c8c1b1f71311c00d8b5085d42f38fdb8d1c1fa"
+    },
+    "367": {
+      "manual_file": "transcripts/manual/page-367.html",
+      "sha256": "ca48177fba96dc1856235cff2f01c79588a64ef717237a6293f6ee4ad8d42fad"
+    },
+    "368": {
+      "manual_file": "transcripts/manual/page-368.html",
+      "sha256": "30ceeca016c68ea3076013e66feb12158f82d24fda4f56a53439968bf13dddd1"
+    },
+    "369": {
+      "manual_file": "transcripts/manual/page-369.html",
+      "sha256": "ef2d144a3fc2a6b3738d1922b4df09c8539cbcd8ffda030d0dd02b29d023aeba"
+    },
+    "370": {
+      "manual_file": "transcripts/manual/page-370.html",
+      "sha256": "3587550c540cf58f25fbfd0260eec8962a8e5fd886081f9dffdcaac9eb9b0448"
+    },
+    "371": {
+      "manual_file": "transcripts/manual/page-371.html",
+      "sha256": "87f7fd66542e66947db55908798215ae0a0cecff9ae04bcbc0131935d77af286"
+    },
+    "372": {
+      "manual_file": "transcripts/manual/page-372.html",
+      "sha256": "9351173376f721e65d871501d5a4889e1aa031f7f970abcab38587c1be24084e"
+    },
+    "373": {
+      "manual_file": "transcripts/manual/page-373.html",
+      "sha256": "5d638b91d60c001684eae94d686e0c42e28982da4936c9022246f48f718a9d97"
+    },
+    "374": {
+      "manual_file": "transcripts/manual/page-374.html",
+      "sha256": "82f2355abb7d3a7f81b74e9463239695519e0a2661d96a03be52839dec801b54"
+    },
+    "375": {
+      "manual_file": "transcripts/manual/page-375.html",
+      "sha256": "379e27151b374758c32465fc3fb792b4bb52e22f16e72a1aaaccc8f90b37253e"
+    },
+    "376": {
+      "manual_file": "transcripts/manual/page-376.html",
+      "sha256": "bafb19e52d49bcc14f3d4c92a4c527e3c0a4fd38157d9703630f54140008fee0"
+    },
+    "377": {
+      "manual_file": "transcripts/manual/page-377.html",
+      "sha256": "5ddd7eafc4fd26723e9d17bebf09f730ed7314cd53704ab97337b01425151ce4"
+    },
+    "378": {
+      "manual_file": "transcripts/manual/page-378.html",
+      "sha256": "fc2c294dcf381dec6945771fe2ecf859d6f09ff18b92e88d76511c48c8f85160"
+    },
+    "379": {
+      "manual_file": "transcripts/manual/page-379.html",
+      "sha256": "fb186b75a74154bc517d43bed6761c2a6f0bc686d7b01c633471f0bc1223b992"
+    },
+    "380": {
+      "manual_file": "transcripts/manual/page-380.html",
+      "sha256": "4fb8ef596751aafe1db6a90b7462e3b0c443b297f3b441d9c04b413d493521be"
+    },
+    "381": {
+      "manual_file": "transcripts/manual/page-381.html",
+      "sha256": "844d5a21aceb8395bc9719fbeca36d58aebf9e58305fad3af688b1def13bdbf8"
+    },
+    "382": {
+      "manual_file": "transcripts/manual/page-382.html",
+      "sha256": "071fc6c80fa3c8ad6316de303382584f830547c143872e7a851e048031120e1c"
+    },
+    "383": {
+      "manual_file": "transcripts/manual/page-383.html",
+      "sha256": "93b1dd3c23e80a7c27eb703aef4a3932fd947e155e5df2842154716899e2f37f"
+    },
+    "384": {
+      "manual_file": "transcripts/manual/page-384.html",
+      "sha256": "4d431b4bfc66c25e54ea005128efe009940bcc73968a44c67a7425a5cca6b934"
+    },
+    "385": {
+      "manual_file": "transcripts/manual/page-385.html",
+      "sha256": "b9e9f597602d921fa1264723272909747bde70c7ee6f10eb8a5c234d22a7390f"
+    },
+    "386": {
+      "manual_file": "transcripts/manual/page-386.html",
+      "sha256": "550ad30876dd65d936b4c59cd3e7a7c81e8e4a07a316d0f4812aee787fcb3fcf"
+    },
+    "388": {
+      "manual_file": "transcripts/manual/page-388.html",
+      "sha256": "124622b07077962f65ce1ffcc518627a8a28537869f91dd6dee920e2b6a59d0e"
+    },
+    "389": {
+      "manual_file": "transcripts/manual/page-389.html",
+      "sha256": "0ecb4e1dc5baf8cf7a2aba814916867d236b148a68ec0e09127c275bc2f1c74e"
+    },
+    "390": {
+      "manual_file": "transcripts/manual/page-390.html",
+      "sha256": "ae374c5f7a26ad62a82256ca4cfdcf627488e8db26a1f463e3e8a37e1f502b37"
+    },
+    "391": {
+      "manual_file": "transcripts/manual/page-391.html",
+      "sha256": "c3a414389b33435b193b493dcd75fb752f5a0ba6e9415a7d9a1475b2cc0bad56"
+    },
+    "392": {
+      "manual_file": "transcripts/manual/page-392.html",
+      "sha256": "f3d0c7945854f4ea6becc1ed019ac26d7a31771cf55a27b339fc207917135015"
+    },
+    "394": {
+      "manual_file": "transcripts/manual/page-394.html",
+      "sha256": "215548449f488bc9e34ea6513f6b814141aee6b4dbad1a0dd04e3a45686e4785"
+    },
+    "395": {
+      "manual_file": "transcripts/manual/page-395.html",
+      "sha256": "3518ab6e2bd5dc9148516323b17ba6b5d46ec8b6d30a2a1a371fbe7836b8da1b"
+    },
+    "396": {
+      "manual_file": "transcripts/manual/page-396.html",
+      "sha256": "58366b693b896f57d02b7a6b981329a45c9bb29e52c43a547aa521ed5d50617c"
+    },
+    "397": {
+      "manual_file": "transcripts/manual/page-397.html",
+      "sha256": "00fd11aecdb6c2b393e4018efd9f4eba6e19e17acfe278179c7246bac8359e9e"
+    },
+    "398": {
+      "manual_file": "transcripts/manual/page-398.html",
+      "sha256": "7d3721c4fab4ae2c18e46a8760c5d15853982f44ddafea9c4ca76a45ee755fce"
+    },
+    "399": {
+      "manual_file": "transcripts/manual/page-399.html",
+      "sha256": "53e4d19f564b89bd721a6731bde05bec110b44fe5a8b03cb13f6be5a6e5125b4"
+    },
+    "400": {
+      "manual_file": "transcripts/manual/page-400.html",
+      "sha256": "b40debd7e727589b20d979315fef181f3bb02f01508509e6b768fc030125c4b9"
+    },
+    "401": {
+      "manual_file": "transcripts/manual/page-401.html",
+      "sha256": "ba8a2954784e888775aaedbca8de28ab39e2dcc7c117700173d389105b827547"
+    },
+    "402": {
+      "manual_file": "transcripts/manual/page-402.html",
+      "sha256": "64416020b6b85b280a2a7c449d1c30d9979a477de13538636622521e29aa82d5"
+    },
+    "403": {
+      "manual_file": "transcripts/manual/page-403.html",
+      "sha256": "98881685400fea13a8fb05492bf4b6b3f6bdfc07bd3a9cb4c5406222ee728c57"
+    },
+    "404": {
+      "manual_file": "transcripts/manual/page-404.html",
+      "sha256": "c0fe0f77128fae511fd1c1320c16ec9bbddff1f1c6b75346628a9a32f5374f85"
+    },
+    "405": {
+      "manual_file": "transcripts/manual/page-405.html",
+      "sha256": "3d27b899ef1bb99c924bc31de5c5c4c4b302ca17fb0b1dd24ec3f005c22ccbeb"
+    },
+    "406": {
+      "manual_file": "transcripts/manual/page-406.html",
+      "sha256": "034da14a84b614436a56f813cfa00a4fbcbebfced56d6355fa793c196aea90e6"
+    },
+    "407": {
+      "manual_file": "transcripts/manual/page-407.html",
+      "sha256": "0bc91af3733cb1f4e1344bda5679f466e42256cea37d8a0333b57ab302661024"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<p><strong>4) ราคาประเมินจากตัวแบบคิดลดเงินปันผล</strong></p>
+<p>ราคาประเมินจากตัวแบบคิดลดเงินปันผล (Divended Discount Pricing model : DDP) มีแนวคิดมาจากการคำนวณมูลค่าปัจจุบันจากกระเงินสดที่ได้รับจากหุ้น(รับปลายงวด) วิธีนี้เป็นวิธีที่นิยมใช้กันมากเนื่องจากมีการพิจารณามูลค่าของเงินที่ได้รับตามเวลา เพื่อคำนวณหาราคาซื้อที่เหมาะสม เพื่อที่จะได้ผลตอบแทนตามที่คาดว่าจะได้รับ</p>
+<p>กำหนดให้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>D</mi><mi>t</mi></msub><annotation encoding="application/x-tex">D_t</annotation></semantics></math> เป็นเงินปันผลที่ได้รับต่อหุ้น ปลายงวดที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math></p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>i</mi><mi>s</mi></msub><annotation encoding="application/x-tex">i_s</annotation></semantics></math> เป็นอัตราคิดลดหรืออัตราผลตอบแทนที่คาดหวัง</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> เป็นจำนวนงวดที่นักลงทุนถือครองหุ้น</p>
+<p><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>p</mi><mi>n</mi></msub><annotation encoding="application/x-tex">p_n</annotation></semantics></math> เป็นราคาต่อหุ้นที่คาดว่าจะขายได้ในปลายงวดที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math></p>
+<p>จะได้มูลค่าปัจจุบันจากกระเงินสดที่ได้รับจากหุ้น (PV) ต่อหุ้น คือ</p>
+<div class="source-equation">
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>V</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mfrac><msub><mi>D</mi><mi>t</mi></msub><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mi>s</mi></msub><msup><mo stretchy="false" form="postfix">)</mo><mi>t</mi></msup></mrow></mfrac><mo>+</mo><mfrac><msub><mi>p</mi><mi>n</mi></msub><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mi>s</mi></msub><msup><mo stretchy="false" form="postfix">)</mo><mi>n</mi></msup></mrow></mfrac><mo>=</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><msub><mi>D</mi><mi>t</mi></msub><msup><mi>v</mi><mi>t</mi></msup><mo>+</mo><msub><mi>p</mi><mi>n</mi></msub><msup><mi>v</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">PV=\sum_{t=1}^{n}\frac{D_t}{(1+i_s)^t}+\frac{p_n}{(1+i_s)^n}=\sum_{t=1}^{n}D_t v^t+p_n v^n</annotation></semantics></math>
+<span class="equation-number">(5.23)</span>
+</div>
+<p>เมื่อ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>i</mi><mi>s</mi></msub><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>−</mi><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">v=(1+i_s)^{-1}</annotation></semantics></math> เป็นตัวประกอบส่วนลด</p>
+<p><strong>บทนิยาม 5.12</strong> เรียก มูลค่าปัจจุบันจากกระเงินสดที่ได้รับจากหุ้น ต่อหุ้น ตามสูตร (5.23) ว่า <em>ราคาประเมินต่อหุ้น</em> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>) จากตัวแบบคิดลดเงินปันผล</p>
+<p><strong>กรณีเฉพาะที่น่าสนใจ</strong></p>
+<p>ก) ถ้าหุ้นนั้นมีการจ่ายเงินปันผลคงที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> ต่องวดต่อหุ้น ราคาประเมิน <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> ต่อหุ้น คำนวณได้จาก</p>
+<div class="source-equation">
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mi>D</mi><msub><mi>a</mi><mrow><mover><mi>n</mi><mo accent="true">¯</mo></mover><mo stretchy="false" form="prefix">|</mo><msub><mi>i</mi><mi>s</mi></msub></mrow></msub><mo>+</mo><msub><mi>p</mi><mi>n</mi></msub><msup><mi>v</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">p=Da_{\overline{n}|i_s}+p_n v^n</annotation></semantics></math>
+<span class="equation-number">(5.24)</span>
+</div>
+<p>ข) ถ้าหุ้นนั้นไม่มีจ่ายเงินปันผล ราคาประเมิน <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> ต่อหุ้น คำนวณได้จาก</p>
+<div class="source-equation">
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><msub><mi>p</mi><mi>n</mi></msub><msup><mi>v</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">p=p_n v^n</annotation></semantics></math>
+<span class="equation-number">(5.25)</span>
+</div>
+<p>ค) ถ้านักลงทุนถือครองหุ้นตลอดไปและหุ้นนั้นมีการจ่ายเงินปันผล ราคาประเมิน <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> ต่อหุ้น คำนวณได้จาก</p>
+<div class="source-equation">
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><munderover><mo>∑</mo><mrow><mi>t</mi><mo>=</mo><mn>1</mn></mrow><mo accent="false">∞</mo></munderover><msub><mi>D</mi><mi>t</mi></msub><msup><mi>v</mi><mi>t</mi></msup></mrow><annotation encoding="application/x-tex">p=\sum_{t=1}^{\infty}D_t v^t</annotation></semantics></math>
+<span class="equation-number">(5.26)</span>
+</div>
+<p>ง) ถ้านักลงทุนถือครองหุ้นตลอดไปและหุ้นนั้นมีการจ่ายเงินปันผลคงที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> ต่องวด ต่อหุ้น ราคาประเมิน <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> ต่อหุ้น คำนวณได้จาก</p>
+<div class="source-equation">
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mi>D</mi><msub><mi>a</mi><mrow><mover><mi>∞</mi><mo accent="true">¯</mo></mover><mo stretchy="false" form="prefix">|</mo><msub><mi>i</mi><mi>s</mi></msub></mrow></msub><mo>=</mo><mfrac><mi>D</mi><msub><mi>i</mi><mi>s</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">p=Da_{\overline{\infty}|i_s}=\frac{D}{i_s}</annotation></semantics></math>
+<span class="equation-number">(5.27)</span>
+</div>

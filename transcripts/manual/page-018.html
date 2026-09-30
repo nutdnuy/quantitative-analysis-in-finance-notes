@@ -1,0 +1,23 @@
+<p>สมมติว่า ลงทุนทันที 1 บาท ด้วยอัตราดอกเบี้ยทบต้น <math data-tex="i"><mi>i</mi></math> ดอกเบี้ยที่เกิดขึ้นในแต่งวดแสดงให้เห็นได้ดังแผนภาพ</p>
+
+<figure class="source-figure"><img src="assets/figures/figure-1-3.webp" width="484" height="125" alt="แผนภาพดอกเบี้ยทบต้น"><figcaption><em>รูปที่ 1.3 แสดงดอกเบี้ยรับจากการลงทุนทันที 1 บาท ด้วยอัตราดอกเบี้ยทบต้น <math data-tex="i"><mi>i</mi></math></em></figcaption></figure>
+
+<p>แผนภาพในรูปที่ 1.3 เงินสะสมจากเงินลงทุน 1 บาท ด้วยอัตราดอกเบี้ยทบต้น เท่ากับ</p>
+
+<div class="source-equation" data-tex="1+i+i(1+i)+...+i(1+i)^{n-2}+i(1+i)^{n-1}=(1+i)^n"><math display="block"><mn>1</mn><mo>+</mo><mi>i</mi><mo>+</mo><mi>i</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo><mo>+</mo><mo>...</mo><mo>+</mo><mi>i</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>−</mo><mn>2</mn></mrow></msup><mo>+</mo><mi>i</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></math><span class="equation-number">(1.15)</span></div>
+
+<p>และในทำนองเดียวกันสำหรับเวลา <math data-tex="t\geq0"><mi>t</mi><mo>≥</mo><mn>0</mn></math> จะได้เงินสะสมเท่ากับ <math data-tex="(1+i)^t"><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>t</mi></msup></math></p>
+
+<p><strong>บทนิยาม 1.5</strong> ให้ <math data-tex="i&gt;0"><mi>i</mi><mo>&gt;</mo><mn>0</mn></math> เป็นอัตราดอกเบี้ยทบต้น เรียก <math data-tex="a(t)=(1+i)^t"><mi>a</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>t</mi></msup></math> สำหรับ <math data-tex="t\geq0"><mi>t</mi><mo>≥</mo><mn>0</mn></math> ว่า <em>ฟังก์ชันสะสม</em> ด้วยอัตราดอกเบี้ยทบต้น</p>
+
+<p><strong>ทฤษฎีบท 1.6</strong> ฟังก์ชันสะสมด้วยอัตราดอกเบี้ยทบต้น <math data-tex="a(t)=(1+i)^t"><mi>a</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>t</mi></msup></math> สำหรับ <math data-tex="t&gt;0"><mi>t</mi><mo>&gt;</mo><mn>0</mn></math> เป็นฟังก์ชันเพิ่มในตัวแปร <math data-tex="i"><mi>i</mi></math> และ <math data-tex="t"><mi>t</mi></math> เมื่อกำหนดให้ตัวแปรใดตัวแปรหนึ่งคงที่</p>
+
+<p><strong>พิสูจน์</strong> ถ้ากำหนดให้ <math data-tex="i"><mi>i</mi></math> คงที่ แล้วจะได้ว่า <math data-tex="\frac{da}{dt}=(1+i)^t\ln(1+i)&gt;0"><mfrac><mrow><mi>d</mi><mi>a</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>t</mi></msup><mi mathvariant="normal">ln</mi><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo><mo>&gt;</mo><mn>0</mn></math> ดังนั้น <math data-tex="a"><mi>a</mi></math> เป็นฟังก์ชันเพิ่มในตัวแปร <math data-tex="t"><mi>t</mi></math> ในทำนองเดียวกัน ถ้ากำหนดให้ <math data-tex="i"><mi>i</mi></math> คงที่ แล้วจะได้ว่า <math data-tex="\frac{da}{di}=t(1+i)^{t-1}&gt;0"><mfrac><mrow><mi>d</mi><mi>a</mi></mrow><mrow><mi>d</mi><mi>i</mi></mrow></mfrac><mo>=</mo><mi>t</mi><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>&gt;</mo><mn>0</mn></math> ดังนั้น <math data-tex="a"><mi>a</mi></math> เป็นฟังก์ชันเพิ่มในตัวแปร <math data-tex="i"><mi>i</mi></math> □</p>
+
+<p>จาก บทนิยาม 1.5 ถ้าสมมติให้ <math data-tex="P_0"><msub><mi>P</mi><mn>0</mn></msub></math> เป็นเงินต้นของการลงทุนด้วยอัตราดอกเบี้ยทบต้น <math data-tex="i"><mi>i</mi></math> ต่องวด ลงทุนเป็นจำนวน <math data-tex="t"><mi>t</mi></math> งวด (<math data-tex="t\geq0"><mi>t</mi><mo>≥</mo><mn>0</mn></math> ไม่จำเป็นต้องเป็นจำนวนเต็ม) จะได้เงินสะสม</p>
+
+<div class="source-equation" data-tex="S_t=P_0(1+i)^t"><math display="block"><msub><mi>S</mi><mi>t</mi></msub><mo>=</mo><msub><mi>P</mi><mn>0</mn></msub><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>t</mi></msup></math><span class="equation-number">(1.16)</span></div>
+
+<p><strong>บทแทรก 1.7</strong> เงินสะสมด้วยอัตราดอกเบี้ยทบต้น <math data-tex="S_t=P_0(1+i)^t"><msub><mi>S</mi><mi>t</mi></msub><mo>=</mo><msub><mi>P</mi><mn>0</mn></msub><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>t</mi></msup></math> สำหรับ <math data-tex="t&gt;0"><mi>t</mi><mo>&gt;</mo><mn>0</mn></math> เป็นฟังก์ชันเพิ่มในตัวแปรใดตัวหนึ่งสำหรับ <math data-tex="i"><mi>i</mi></math> , <math data-tex="t"><mi>t</mi></math> และ <math data-tex="P_0"><msub><mi>P</mi><mn>0</mn></msub></math> เมื่อกำหนดให้ตัวแปรที่เหลือคงที่</p>
+
+<p><strong>พิสูจน์</strong> สามารถพิสูจน์ได้ในทำนองเดียวกับ ทฤษฎีบท 1.6 □</p>

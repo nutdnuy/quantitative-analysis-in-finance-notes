@@ -1,0 +1,56 @@
+<p>จากกราฟแสดงค่าเสื่อมด้วยวิธีทุนจม จะเห็นว่ามีลักษณะเพิ่มขึ้นอย่างเอ็กซ์โปเนนเชียล ซึ่งเป็นวิธีการคำนวณค่าเสื่อมราคาที่เหมาะสำหรับสินทรัพย์ที่มีความเสื่อมน้อยในช่วงแรกๆ และเสื่อมมากขึ้นเมื่อเวลาผ่านไปเช่น บ้าน คอนโดมิเนียม เป็นต้น แต่วิธีไม่เหมาะสำหรับ สินทรัพย์ที่มีค่าเสื่อมราคาช่วงแรกๆ สูง อย่างเช่น รถยนต์</p>
+<p><strong>ตัวอย่างที่ 4.7</strong> จากโจทย์ข้อ 4.4 จงสร้างตารางแสดงค่าเสื่อมราคาวิธีทุนจม และมูลค่าตามบัญชีเมื่อสิ้นปีที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> ใดๆ โดยกำหนด <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">j=0.05</annotation></semantics></math> ต่อปี</p>
+<p><strong>วิธีทำ</strong> จากโจทย์ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mn>0</mn></msub><mo>=</mo><mn>2</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding="application/x-tex">P_0=2,100,000</annotation></semantics></math> , <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>750</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding="application/x-tex">L=750,000</annotation></semantics></math> , <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">n=5</annotation></semantics></math> จะได้ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>350</mn><mo>,</mo><mn>000</mn></mrow><annotation encoding="application/x-tex">D=1,350,000</annotation></semantics></math></p>
+<p>คำนวณค่าเสื่อมราคาเมื่อสิ้นปีที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> จากสูตร <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>D</mi><mi>t</mi></msub><mo>=</mo><mstyle displaystyle="true"><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mi>j</mi><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><msub><mi>s</mi><mrow><mover><mi>n</mi><mo accent="true">¯</mo></mover><mo stretchy="false" form="prefix">|</mo><mi>j</mi></mrow></msub></mfrac></mstyle><mi>D</mi></mrow><annotation encoding="application/x-tex">D_t=\dfrac{(1+j)^{t-1}}{s_{\overline{n}|j}}D</annotation></semantics></math> จะได้</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>D</mi><mi>t</mi></msub><mo>=</mo><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.05</mn><msup><mo stretchy="false" form="postfix">)</mo><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msup></mrow><mstyle displaystyle="true"><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.05</mn><msup><mo stretchy="false" form="postfix">)</mo><mn>5</mn></msup><mo>−</mo><mn>1</mn></mrow><mn>0.05</mn></mfrac></mstyle></mfrac><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>,</mo><mn>350</mn><mo>,</mo><mn>000</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mn>244</mn><mo>,</mo><mn>315.9775</mn><mo stretchy="false" form="postfix">)</mo><msup><mn>1.05</mn><mrow><mi>−</mi><mn>1</mn><mo>+</mo><mi>t</mi></mrow></msup></mrow><annotation encoding="application/x-tex">D_t=\frac{(1+0.05)^{t-1}}{\dfrac{(1+0.05)^5-1}{0.05}}(1,350,000)=(244,315.9775)1.05^{-1+t}</annotation></semantics></math></p>
+<p>และคำนวณมูลค่าตามบัญชีเมื่อสิ้นปีที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> จากสูตร <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>=</mo><msub><mi>P</mi><mn>0</mn></msub><mo>−</mo><mstyle displaystyle="true"><mfrac><msub><mi>s</mi><mrow><mover><mi>t</mi><mo accent="true">¯</mo></mover><mo stretchy="false" form="prefix">|</mo><mi>j</mi></mrow></msub><msub><mi>s</mi><mrow><mover><mi>n</mi><mo accent="true">¯</mo></mover><mo stretchy="false" form="prefix">|</mo><mi>j</mi></mrow></msub></mfrac></mstyle><mi>D</mi></mrow><annotation encoding="application/x-tex">B_t=P_0-\dfrac{s_{\overline{t}|j}}{s_{\overline{n}|j}}D</annotation></semantics></math> จะได้</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><msub><mi>B</mi><mi>t</mi></msub></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mn>2</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>000</mn><mo>−</mo><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.05</mn><msup><mo stretchy="false" form="postfix">)</mo><mi>t</mi></msup><mo>−</mo><mn>1</mn></mrow><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mn>0.05</mn><msup><mo stretchy="false" form="postfix">)</mo><mn>5</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>1</mn><mo>,</mo><mn>350</mn><mo>,</mo><mn>000</mn></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mo>=</mo><mn>2</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>000</mn><mo>−</mo><mn>4</mn><mo>,</mo><mn>886</mn><mo>,</mo><mn>319.5495</mn><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>1</mn><mo>+</mo><msup><mn>1.05</mn><mi>t</mi></msup><mo stretchy="false" form="postfix">)</mo></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}B_t&amp;=2,100,000-\left(\frac{(1+0.05)^t-1}{(1+0.05)^5-1}\right)1,350,000\\&amp;=2,100,000-4,886,319.5495(-1+1.05^t)\end{aligned}</annotation></semantics></math></p>
+<p>หรืออาจใช้ความสัมพันธ์ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>B</mi><mi>t</mi></msub><mo>=</mo><msub><mi>B</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><msub><mi>D</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">B_t=B_{t-1}-D_t</annotation></semantics></math> ก็ได้</p>
+<p>ซึ่งค่าเสื่อมราคาวิธีทุนจม และมูลค่าตามบัญชีเมื่อสิ้นปีที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math> ใดๆ แสดงค่าตามตารางต่อไปนี้</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ปลายปีที่ <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math></th>
+<th style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>D</mi><mi>t</mi></msub><annotation encoding="application/x-tex">D_t</annotation></semantics></math></th>
+<th style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>B</mi><mi>t</mi></msub><annotation encoding="application/x-tex">B_t</annotation></semantics></math></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2,100,000.00</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: right;">244,315.98</td>
+<td style="text-align: right;">1,855,684.02</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: right;">256,531.78</td>
+<td style="text-align: right;">1,599,152.25</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: right;">269,358.37</td>
+<td style="text-align: right;">1,329,793.88</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: right;">282,826.28</td>
+<td style="text-align: right;">1,046,967.60</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: right;">296,967.60</td>
+<td style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><mn>750</mn><mo>,</mo><mn>000.00</mn></mrow><annotation encoding="application/x-tex">L=750,000.00</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: center;">รวม</td>
+<td style="text-align: right;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo>=</mo><mn>1350000</mn></mrow><annotation encoding="application/x-tex">D=1350000</annotation></semantics></math></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p>□</p>
